@@ -20,6 +20,9 @@ class _SentencesPageState extends State<SentencesPage> {
   final TextEditingController _ctrl = TextEditingController();
   String _query = '';
 
+  /// 选中的分组，null = 全部
+  String? _groupId;
+
   @override
   void dispose() {
     _ctrl.dispose();
@@ -39,6 +42,36 @@ class _SentencesPageState extends State<SentencesPage> {
     );
   }
 
+  /// 分组快捷筛选：一眼看到有哪些类目，点一下只看这一类
+  Widget _buildGroupChips() {
+    return SizedBox(
+      height: 42,
+      child: ListView(
+        scrollDirection: Axis.horizontal,
+        padding: const EdgeInsets.symmetric(horizontal: 12),
+        children: [
+          _chip(null, '全部', '📋'),
+          ...widget.data.groups.map(
+            (g) => _chip(g.id, g.zh.split('（').first, g.ico),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _chip(String? id, String label, String ico) {
+    final selected = _groupId == id;
+    return Padding(
+      padding: const EdgeInsets.only(right: 8),
+      child: FilterChip(
+        label: Text('$ico $label'),
+        selected: selected,
+        showCheckmark: false,
+        onSelected: (_) => setState(() => _groupId = id),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return ListenableBuilder(
@@ -50,6 +83,7 @@ class _SentencesPageState extends State<SentencesPage> {
         var total = 0;
 
         for (final g in widget.data.groups) {
+          if (_groupId != null && g.id != _groupId) continue;
           final list = g.sentences
               .where((s) => sentenceMatches(s, q))
               .toList();
@@ -80,6 +114,7 @@ class _SentencesPageState extends State<SentencesPage> {
                   onChanged: (v) => setState(() => _query = v),
                 ),
               ),
+              _buildGroupChips(),
               Expanded(
                 child: total == 0
                     ? const EmptyView(
