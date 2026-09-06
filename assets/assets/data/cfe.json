@@ -1,0 +1,1544 @@
+{
+  "version": 1,
+  "cats": [
+    {
+      "id": "display",
+      "zh": "显示设备",
+      "en": "Display & Projection",
+      "ico": "📽️"
+    },
+    {
+      "id": "audio",
+      "zh": "音响设备",
+      "en": "Audio & Microphone",
+      "ico": "🎤"
+    },
+    {
+      "id": "podium",
+      "zh": "中控讲台",
+      "en": "Podium & Control",
+      "ico": "🎛️"
+    },
+    {
+      "id": "network",
+      "zh": "网络与账号",
+      "en": "Network & Accounts",
+      "ico": "📶"
+    },
+    {
+      "id": "room",
+      "zh": "环境设施",
+      "en": "Room Environment",
+      "ico": "💡"
+    },
+    {
+      "id": "supply",
+      "zh": "家具与用品",
+      "en": "Furniture & Supplies",
+      "ico": "🪑"
+    },
+    {
+      "id": "record",
+      "zh": "录播与线上",
+      "en": "Recording & Online",
+      "ico": "🎥"
+    },
+    {
+      "id": "problem",
+      "zh": "故障与报修",
+      "en": "Problems & Repair",
+      "ico": "🛠️"
+    }
+  ],
+  "words": [
+    {
+      "c": "display",
+      "en": "projector",
+      "ipa": "/prəˈdʒektər/",
+      "zh": "投影仪",
+      "p": [
+        {
+          "r": "ft",
+          "en": "The projector won't turn on.",
+          "zh": "投影仪打不开。"
+        },
+        {
+          "r": "me",
+          "en": "Let me check the power switch.",
+          "zh": "我检查一下电源开关。"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "projection screen",
+      "ipa": "/prəˈdʒekʃən skriːn/",
+      "zh": "投影幕布",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Can you lower the screen?",
+          "zh": "能把幕布放下来吗？"
+        },
+        {
+          "r": "me",
+          "en": "Press \"screen down\" on the panel.",
+          "zh": "按面板上的“幕布下降”。"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "interactive flat panel",
+      "ipa": "/ˌɪntərˈæktɪv flæt ˈpænl/",
+      "zh": "触控一体机 / 智慧屏",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Can I write on the screen?",
+          "zh": "我能在屏幕上写吗？"
+        },
+        {
+          "r": "me",
+          "en": "Yes, use your finger or the pen.",
+          "zh": "可以，用手或触控笔。"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "HDMI cable",
+      "ipa": "/ˌeɪtʃ diː aɪ ˈem ˈkeɪbl/",
+      "zh": "HDMI 高清线",
+      "p": [
+        {
+          "r": "me",
+          "en": "Please plug the HDMI cable into your laptop.",
+          "zh": "请把 HDMI 线插到您的电脑上。"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "VGA adapter",
+      "ipa": "/ˌviː dʒiː ˈeɪ əˈdæptər/",
+      "zh": "VGA 转接头",
+      "p": [
+        {
+          "r": "me",
+          "en": "You need this adapter for your old laptop.",
+          "zh": "旧款笔记本需要这个转接头。"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "USB-C hub",
+      "ipa": "/ˌjuː es biː ˈsiː hʌb/",
+      "zh": "Type-C 扩展坞",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Do you have a USB-C hub?",
+          "zh": "有 Type-C 扩展坞吗？"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "remote control",
+      "ipa": "/rɪˈmoʊt kənˈtroʊl/",
+      "zh": "遥控器",
+      "p": [
+        {
+          "r": "ft",
+          "en": "The remote control doesn't respond.",
+          "zh": "遥控器没反应。"
+        },
+        {
+          "r": "me",
+          "en": "The batteries are dead, I'll replace them.",
+          "zh": "电池没电了，我换一下。"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "wireless presenter",
+      "ipa": "/ˈwaɪələs prɪˈzentər/",
+      "zh": "无线翻页笔",
+      "p": [
+        {
+          "r": "me",
+          "en": "Use this clicker to change slides.",
+          "zh": "用这个翻页笔切换幻灯片。"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "laser pointer",
+      "ipa": "/ˈleɪzər pɔɪntər/",
+      "zh": "激光笔",
+      "p": [
+        {
+          "r": "me",
+          "en": "Here is a laser pointer for you.",
+          "zh": "这支激光笔给您用。"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "whiteboard",
+      "ipa": "/ˈwaɪtbɔːrd/",
+      "zh": "白板",
+      "p": [
+        {
+          "r": "me",
+          "en": "You can write on the whiteboard.",
+          "zh": "您可以在白板上写。"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "whiteboard marker",
+      "ipa": "/ˈwaɪtbɔːrd ˈmɑːrkər/",
+      "zh": "白板笔",
+      "p": [
+        {
+          "r": "ft",
+          "en": "These markers are dried out.",
+          "zh": "这些白板笔干了。"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "blackboard",
+      "ipa": "/ˈblækbɔːrd/",
+      "zh": "黑板",
+      "p": [
+        {
+          "r": "me",
+          "en": "The blackboard is behind you.",
+          "zh": "黑板在您身后。"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "chalk",
+      "ipa": "/tʃɔːk/",
+      "zh": "粉笔",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Where is the chalk?",
+          "zh": "粉笔在哪里？"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "eraser",
+      "ipa": "/ɪˈreɪsər/",
+      "zh": "板擦",
+      "p": [
+        {
+          "r": "me",
+          "en": "The eraser is on the tray.",
+          "zh": "板擦在笔槽里。"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "resolution",
+      "ipa": "/ˌrezəˈluːʃən/",
+      "zh": "分辨率",
+      "p": [
+        {
+          "r": "me",
+          "en": "Set the resolution to 1920 by 1080.",
+          "zh": "把分辨率设成 1920×1080。"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "blank screen",
+      "ipa": "/blæŋk skriːn/",
+      "zh": "无信号 / 黑屏",
+      "p": [
+        {
+          "r": "ft",
+          "en": "The screen is blank.",
+          "zh": "屏幕没画面。"
+        },
+        {
+          "r": "me",
+          "en": "Let me switch the input to HDMI.",
+          "zh": "我把信号源切到 HDMI。"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "projector lamp",
+      "ipa": "/prəˈdʒektər læmp/",
+      "zh": "投影灯泡",
+      "p": [
+        {
+          "r": "me",
+          "en": "The lamp needs to be replaced.",
+          "zh": "灯泡需要更换了。"
+        }
+      ]
+    },
+    {
+      "c": "display",
+      "en": "keystone",
+      "ipa": "/ˈkiːstoʊn/",
+      "zh": "梯形校正",
+      "p": [
+        {
+          "r": "me",
+          "en": "I'll fix the keystone so it's not slanted.",
+          "zh": "我调一下梯形校正，画面就不歪了。"
+        }
+      ]
+    },
+    {
+      "c": "audio",
+      "en": "microphone",
+      "ipa": "/ˈmaɪkrəfoʊn/",
+      "zh": "麦克风 / 话筒",
+      "p": [
+        {
+          "r": "ft",
+          "en": "The microphone isn't working.",
+          "zh": "麦克风没声音。"
+        },
+        {
+          "r": "me",
+          "en": "Let me check if it's muted.",
+          "zh": "我看看是不是静音了。"
+        }
+      ]
+    },
+    {
+      "c": "audio",
+      "en": "wireless microphone",
+      "ipa": "/ˈwaɪələs ˈmaɪkrəfoʊn/",
+      "zh": "无线麦克风",
+      "p": [
+        {
+          "r": "me",
+          "en": "Please keep the wireless mic with you.",
+          "zh": "请把无线麦带在身上。"
+        }
+      ]
+    },
+    {
+      "c": "audio",
+      "en": "lapel microphone",
+      "ipa": "/ləˈpel ˈmaɪkrəfoʊn/",
+      "zh": "领夹麦",
+      "p": [
+        {
+          "r": "me",
+          "en": "Clip the lapel mic to your collar.",
+          "zh": "把领夹麦别在衣领上。"
+        }
+      ]
+    },
+    {
+      "c": "audio",
+      "en": "handheld microphone",
+      "ipa": "/ˈhændheld ˈmaɪkrəfoʊn/",
+      "zh": "手持麦克风",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Can I have a handheld mic?",
+          "zh": "能给我一个手持麦吗？"
+        }
+      ]
+    },
+    {
+      "c": "audio",
+      "en": "speaker",
+      "ipa": "/ˈspiːkər/",
+      "zh": "音箱",
+      "p": [
+        {
+          "r": "ft",
+          "en": "There's no sound from the speakers.",
+          "zh": "音箱没有声音。"
+        }
+      ]
+    },
+    {
+      "c": "audio",
+      "en": "amplifier",
+      "ipa": "/ˈæmplɪfaɪər/",
+      "zh": "功放",
+      "p": [
+        {
+          "r": "me",
+          "en": "The amplifier is in the cabinet.",
+          "zh": "功放在柜子里。"
+        }
+      ]
+    },
+    {
+      "c": "audio",
+      "en": "volume",
+      "ipa": "/ˈvɑːljuːm/",
+      "zh": "音量",
+      "p": [
+        {
+          "r": "me",
+          "en": "Turn the volume up a little.",
+          "zh": "把音量调大一点。"
+        }
+      ]
+    },
+    {
+      "c": "audio",
+      "en": "mute",
+      "ipa": "/mjuːt/",
+      "zh": "静音",
+      "p": [
+        {
+          "r": "me",
+          "en": "Please mute the mic during the break.",
+          "zh": "课间请把麦克风静音。"
+        }
+      ]
+    },
+    {
+      "c": "audio",
+      "en": "feedback",
+      "ipa": "/ˈfiːdbæk/",
+      "zh": "啸叫 / 回授杂音",
+      "p": [
+        {
+          "r": "ft",
+          "en": "There's a high-pitched noise.",
+          "zh": "有很尖的啸叫声。"
+        },
+        {
+          "r": "me",
+          "en": "Move away from the speakers to avoid feedback.",
+          "zh": "离音箱远一点可以避免啸叫。"
+        }
+      ]
+    },
+    {
+      "c": "audio",
+      "en": "battery",
+      "ipa": "/ˈbætəri/",
+      "zh": "电池",
+      "p": [
+        {
+          "r": "me",
+          "en": "I'll change the batteries.",
+          "zh": "我来换电池。"
+        }
+      ]
+    },
+    {
+      "c": "audio",
+      "en": "sound system",
+      "ipa": "/ˈsaʊnd ˈsɪstəm/",
+      "zh": "音响系统",
+      "p": [
+        {
+          "r": "me",
+          "en": "The whole sound system was upgraded.",
+          "zh": "整套音响系统升级过了。"
+        }
+      ]
+    },
+    {
+      "c": "audio",
+      "en": "static noise",
+      "ipa": "/ˈstætɪk nɔɪz/",
+      "zh": "电流杂音",
+      "p": [
+        {
+          "r": "ft",
+          "en": "I hear a buzzing sound.",
+          "zh": "我听到嗡嗡的杂音。"
+        }
+      ]
+    },
+    {
+      "c": "audio",
+      "en": "audio jack",
+      "ipa": "/ˈɔːdioʊ dʒæk/",
+      "zh": "音频接口（3.5mm）",
+      "p": [
+        {
+          "r": "me",
+          "en": "Plug it into the audio jack here.",
+          "zh": "插到这里的音频接口。"
+        }
+      ]
+    },
+    {
+      "c": "podium",
+      "en": "control panel",
+      "ipa": "/kənˈtroʊl ˈpænl/",
+      "zh": "中控面板",
+      "p": [
+        {
+          "r": "me",
+          "en": "Press the power button on the control panel.",
+          "zh": "按中控面板上的电源键。"
+        }
+      ]
+    },
+    {
+      "c": "podium",
+      "en": "podium",
+      "ipa": "/ˈpoʊdiəm/",
+      "zh": "讲台",
+      "p": [
+        {
+          "r": "me",
+          "en": "The Wi-Fi password is on the podium.",
+          "zh": "无线密码贴在讲台上。"
+        }
+      ]
+    },
+    {
+      "c": "podium",
+      "en": "lectern",
+      "ipa": "/ˈlektɜːrn/",
+      "zh": "演讲台 / 讲桌",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Is there a lectern?",
+          "zh": "有演讲台吗？"
+        }
+      ]
+    },
+    {
+      "c": "podium",
+      "en": "classroom computer",
+      "ipa": "/ˈklæsruːm kəmˈpjuːtər/",
+      "zh": "教室台式电脑",
+      "p": [
+        {
+          "r": "me",
+          "en": "You can use the classroom computer.",
+          "zh": "您可以用教室这台电脑。"
+        }
+      ]
+    },
+    {
+      "c": "podium",
+      "en": "laptop",
+      "ipa": "/ˈlæptɑːp/",
+      "zh": "笔记本电脑",
+      "p": [
+        {
+          "r": "ft",
+          "en": "My laptop can't detect the HDMI.",
+          "zh": "我的笔记本检测不到 HDMI。"
+        }
+      ]
+    },
+    {
+      "c": "podium",
+      "en": "USB flash drive",
+      "ipa": "/ˌjuː es ˈbiː flæʃ draɪv/",
+      "zh": "U 盘",
+      "p": [
+        {
+          "r": "me",
+          "en": "Copy your slides to the USB drive.",
+          "zh": "把课件拷到 U 盘里。"
+        }
+      ]
+    },
+    {
+      "c": "podium",
+      "en": "power outlet",
+      "ipa": "/ˈpaʊər ˈaʊtlet/",
+      "zh": "电源插座",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Is there an outlet near my seat?",
+          "zh": "我座位附近有插座吗？"
+        }
+      ]
+    },
+    {
+      "c": "podium",
+      "en": "extension cord",
+      "ipa": "/ɪkˈstenʃən kɔːrd/",
+      "zh": "插线板",
+      "p": [
+        {
+          "r": "me",
+          "en": "I'll get an extension cord for you.",
+          "zh": "我去给您拿个插线板。"
+        }
+      ]
+    },
+    {
+      "c": "podium",
+      "en": "power switch",
+      "ipa": "/ˈpaʊər swɪtʃ/",
+      "zh": "电源开关",
+      "p": [
+        {
+          "r": "me",
+          "en": "The main power switch is by the door.",
+          "zh": "总电源开关在门边。"
+        }
+      ]
+    },
+    {
+      "c": "podium",
+      "en": "adapter",
+      "ipa": "/əˈdæptər/",
+      "zh": "转接头 / 适配器",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Do you have a Type-C adapter?",
+          "zh": "有 Type-C 转接头吗？"
+        }
+      ]
+    },
+    {
+      "c": "podium",
+      "en": "surge protector",
+      "ipa": "/sɜːrdʒ prəˈtektər/",
+      "zh": "防雷插座",
+      "p": [
+        {
+          "r": "me",
+          "en": "All equipment uses a surge protector.",
+          "zh": "所有设备都接了防雷插座。"
+        }
+      ]
+    },
+    {
+      "c": "podium",
+      "en": "equipment cabinet",
+      "ipa": "/ɪˈkwɪpmənt ˈkæbɪnət/",
+      "zh": "设备机柜",
+      "p": [
+        {
+          "r": "me",
+          "en": "The main unit is locked in the cabinet.",
+          "zh": "主机锁在机柜里。"
+        }
+      ]
+    },
+    {
+      "c": "network",
+      "en": "Wi-Fi",
+      "ipa": "/ˈwaɪ faɪ/",
+      "zh": "无线网络",
+      "p": [
+        {
+          "r": "ft",
+          "en": "I can't connect to the Wi-Fi.",
+          "zh": "我连不上无线网。"
+        }
+      ]
+    },
+    {
+      "c": "network",
+      "en": "Wi-Fi password",
+      "ipa": "/ˈwaɪ faɪ ˈpæswɜːrd/",
+      "zh": "无线密码",
+      "p": [
+        {
+          "r": "me",
+          "en": "The password is on the card on the wall.",
+          "zh": "密码在墙上的卡片上。"
+        }
+      ]
+    },
+    {
+      "c": "network",
+      "en": "network cable",
+      "ipa": "/ˈnetwɜːrk ˈkeɪbl/",
+      "zh": "网线",
+      "p": [
+        {
+          "r": "me",
+          "en": "A wired connection is more stable.",
+          "zh": "插网线更稳定。"
+        }
+      ]
+    },
+    {
+      "c": "network",
+      "en": "LAN port",
+      "ipa": "/læn pɔːrt/",
+      "zh": "网线接口",
+      "p": [
+        {
+          "r": "me",
+          "en": "The LAN port is under the desk.",
+          "zh": "网线接口在桌子下面。"
+        }
+      ]
+    },
+    {
+      "c": "network",
+      "en": "login",
+      "ipa": "/ˈlɔːɡɪn/",
+      "zh": "登录",
+      "p": [
+        {
+          "r": "ft",
+          "en": "I can't log in to the computer.",
+          "zh": "我登录不了这台电脑。"
+        }
+      ]
+    },
+    {
+      "c": "network",
+      "en": "username",
+      "ipa": "/ˈjuːzərneɪm/",
+      "zh": "用户名",
+      "p": [
+        {
+          "r": "me",
+          "en": "Your username is your staff number.",
+          "zh": "用户名是您的工号。"
+        }
+      ]
+    },
+    {
+      "c": "network",
+      "en": "bandwidth",
+      "ipa": "/ˈbændwɪdθ/",
+      "zh": "带宽 / 网速",
+      "p": [
+        {
+          "r": "ft",
+          "en": "The internet is very slow today.",
+          "zh": "今天网速很慢。"
+        }
+      ]
+    },
+    {
+      "c": "network",
+      "en": "VPN",
+      "ipa": "/ˌviː piː ˈen/",
+      "zh": "校园外网通道 VPN",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Do I need the VPN to open this site?",
+          "zh": "打开这个网站需要 VPN 吗？"
+        }
+      ]
+    },
+    {
+      "c": "network",
+      "en": "QR code",
+      "ipa": "/kjuː ɑːr koʊd/",
+      "zh": "二维码",
+      "p": [
+        {
+          "r": "me",
+          "en": "Scan the QR code to sign in.",
+          "zh": "扫码签到。"
+        }
+      ]
+    },
+    {
+      "c": "network",
+      "en": "connection",
+      "ipa": "/kəˈnekʃən/",
+      "zh": "连接",
+      "p": [
+        {
+          "r": "me",
+          "en": "Let me restart the connection.",
+          "zh": "我重新连一下。"
+        }
+      ]
+    },
+    {
+      "c": "room",
+      "en": "air conditioner",
+      "ipa": "/ˈeər kəndɪʃənər/",
+      "zh": "空调",
+      "p": [
+        {
+          "r": "ft",
+          "en": "It's too cold in here.",
+          "zh": "这里太冷了。"
+        },
+        {
+          "r": "me",
+          "en": "I'll turn the air conditioner down.",
+          "zh": "我把空调调小一点。"
+        }
+      ]
+    },
+    {
+      "c": "room",
+      "en": "thermostat",
+      "ipa": "/ˈθɜːrməstæt/",
+      "zh": "温控器",
+      "p": [
+        {
+          "r": "me",
+          "en": "The thermostat is set to 24 degrees.",
+          "zh": "温控设在 24 度。"
+        }
+      ]
+    },
+    {
+      "c": "room",
+      "en": "lighting",
+      "ipa": "/ˈlaɪtɪŋ/",
+      "zh": "照明",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Could you dim the lights?",
+          "zh": "能把灯调暗吗？"
+        }
+      ]
+    },
+    {
+      "c": "room",
+      "en": "light switch",
+      "ipa": "/laɪt swɪtʃ/",
+      "zh": "电灯开关",
+      "p": [
+        {
+          "r": "me",
+          "en": "The light switch is next to the door.",
+          "zh": "灯开关在门旁边。"
+        }
+      ]
+    },
+    {
+      "c": "room",
+      "en": "curtain",
+      "ipa": "/ˈkɜːrtn/",
+      "zh": "窗帘",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Can we close the curtains?",
+          "zh": "能拉上窗帘吗？"
+        },
+        {
+          "r": "me",
+          "en": "Sure, the room will be darker.",
+          "zh": "可以，这样教室会更暗。"
+        }
+      ]
+    },
+    {
+      "c": "room",
+      "en": "blinds",
+      "ipa": "/blaɪndz/",
+      "zh": "百叶窗",
+      "p": [
+        {
+          "r": "me",
+          "en": "Pull the blinds down please.",
+          "zh": "请把百叶窗拉下来。"
+        }
+      ]
+    },
+    {
+      "c": "room",
+      "en": "ventilation",
+      "ipa": "/ˌventɪˈleɪʃən/",
+      "zh": "通风",
+      "p": [
+        {
+          "r": "ft",
+          "en": "It's stuffy in here.",
+          "zh": "这里有点闷。"
+        }
+      ]
+    },
+    {
+      "c": "room",
+      "en": "temperature",
+      "ipa": "/ˈtemprətʃər/",
+      "zh": "温度",
+      "p": [
+        {
+          "r": "me",
+          "en": "Is the temperature OK for you?",
+          "zh": "温度对您合适吗？"
+        }
+      ]
+    },
+    {
+      "c": "room",
+      "en": "door",
+      "ipa": "/dɔːr/",
+      "zh": "门",
+      "p": [
+        {
+          "r": "me",
+          "en": "Please keep the back door closed.",
+          "zh": "请把后门关上。"
+        }
+      ]
+    },
+    {
+      "c": "room",
+      "en": "window",
+      "ipa": "/ˈwɪndoʊ/",
+      "zh": "窗户",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Can we open a window?",
+          "zh": "能开一下窗吗？"
+        }
+      ]
+    },
+    {
+      "c": "room",
+      "en": "fire extinguisher",
+      "ipa": "/ˈfaɪər ɪkˈstɪŋɡwɪʃər/",
+      "zh": "灭火器",
+      "p": [
+        {
+          "r": "me",
+          "en": "The fire extinguisher is by the exit.",
+          "zh": "灭火器在出口旁。"
+        }
+      ]
+    },
+    {
+      "c": "supply",
+      "en": "desk",
+      "ipa": "/desk/",
+      "zh": "课桌",
+      "p": [
+        {
+          "r": "me",
+          "en": "The desks can be rearranged.",
+          "zh": "课桌可以重新摆放。"
+        }
+      ]
+    },
+    {
+      "c": "supply",
+      "en": "chair",
+      "ipa": "/tʃer/",
+      "zh": "椅子",
+      "p": [
+        {
+          "r": "me",
+          "en": "There are spare chairs at the back.",
+          "zh": "后面有多余的椅子。"
+        }
+      ]
+    },
+    {
+      "c": "supply",
+      "en": "attendance sheet",
+      "ipa": "/əˈtendəns ʃiːt/",
+      "zh": "考勤表 / 签到表",
+      "p": [
+        {
+          "r": "me",
+          "en": "Please sign the attendance sheet.",
+          "zh": "请在考勤表上签字。"
+        }
+      ]
+    },
+    {
+      "c": "supply",
+      "en": "printer",
+      "ipa": "/ˈprɪntər/",
+      "zh": "打印机",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Where can I print my handouts?",
+          "zh": "我在哪里打印讲义？"
+        }
+      ]
+    },
+    {
+      "c": "supply",
+      "en": "photocopier",
+      "ipa": "/ˈfoʊtoʊkɑːpiər/",
+      "zh": "复印机",
+      "p": [
+        {
+          "r": "me",
+          "en": "The photocopier is in the office.",
+          "zh": "复印机在办公室。"
+        }
+      ]
+    },
+    {
+      "c": "supply",
+      "en": "water dispenser",
+      "ipa": "/ˈwɔːtər dɪˈspensər/",
+      "zh": "饮水机",
+      "p": [
+        {
+          "r": "me",
+          "en": "The water dispenser is in the hallway.",
+          "zh": "饮水机在走廊。"
+        }
+      ]
+    },
+    {
+      "c": "supply",
+      "en": "clock",
+      "ipa": "/klɑːk/",
+      "zh": "时钟",
+      "p": [
+        {
+          "r": "me",
+          "en": "The clock is five minutes fast.",
+          "zh": "这个钟快了五分钟。"
+        }
+      ]
+    },
+    {
+      "c": "supply",
+      "en": "stapler",
+      "ipa": "/ˈsteɪplər/",
+      "zh": "订书机",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Do you have a stapler?",
+          "zh": "有订书机吗？"
+        }
+      ]
+    },
+    {
+      "c": "supply",
+      "en": "tape",
+      "ipa": "/teɪp/",
+      "zh": "胶带",
+      "p": [
+        {
+          "r": "me",
+          "en": "I'll tape the cable to the floor.",
+          "zh": "我把线缆用胶带固定在地上。"
+        }
+      ]
+    },
+    {
+      "c": "supply",
+      "en": "spare bulb",
+      "ipa": "/sper bʌlb/",
+      "zh": "备用灯泡",
+      "p": [
+        {
+          "r": "me",
+          "en": "We keep spare bulbs in the drawer.",
+          "zh": "抽屉里有备用灯泡。"
+        }
+      ]
+    },
+    {
+      "c": "record",
+      "en": "camera",
+      "ipa": "/ˈkæmərə/",
+      "zh": "摄像头",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Can you record my class?",
+          "zh": "能帮我录课吗？"
+        }
+      ]
+    },
+    {
+      "c": "record",
+      "en": "PTZ camera",
+      "ipa": "/piː tiː ziː ˈkæmərə/",
+      "zh": "云台摄像机",
+      "p": [
+        {
+          "r": "me",
+          "en": "The PTZ camera follows the teacher.",
+          "zh": "云台摄像机会自动跟踪老师。"
+        }
+      ]
+    },
+    {
+      "c": "record",
+      "en": "recording",
+      "ipa": "/rɪˈkɔːrdɪŋ/",
+      "zh": "录播",
+      "p": [
+        {
+          "r": "me",
+          "en": "Press record five minutes before class.",
+          "zh": "课前五分钟按录制。"
+        }
+      ]
+    },
+    {
+      "c": "record",
+      "en": "live streaming",
+      "ipa": "/laɪv ˈstriːmɪŋ/",
+      "zh": "直播",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Will the class be streamed online?",
+          "zh": "这节课会线上直播吗？"
+        }
+      ]
+    },
+    {
+      "c": "record",
+      "en": "hybrid class",
+      "ipa": "/ˈhaɪbrɪd klæs/",
+      "zh": "线上线下混合课",
+      "p": [
+        {
+          "r": "me",
+          "en": "It's a hybrid class, half online.",
+          "zh": "这是混合课，一半学生在线上。"
+        }
+      ]
+    },
+    {
+      "c": "record",
+      "en": "screen sharing",
+      "ipa": "/skriːn ˈʃerɪŋ/",
+      "zh": "屏幕共享",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Can't they see my screen?",
+          "zh": "他们看不到我的屏幕吗？"
+        },
+        {
+          "r": "me",
+          "en": "Click \"share screen\" again.",
+          "zh": "再点一次“共享屏幕”。"
+        }
+      ]
+    },
+    {
+      "c": "record",
+      "en": "video conference",
+      "ipa": "/ˈvɪdioʊ ˈkɑːnfərəns/",
+      "zh": "视频会议",
+      "p": [
+        {
+          "r": "me",
+          "en": "We use Tencent Meeting for online students.",
+          "zh": "线上学生用腾讯会议接入。"
+        }
+      ]
+    },
+    {
+      "c": "record",
+      "en": "tripod",
+      "ipa": "/ˈtraɪpɑːd/",
+      "zh": "三脚架",
+      "p": [
+        {
+          "r": "me",
+          "en": "I'll set up the tripod at the back.",
+          "zh": "我在后面架三脚架。"
+        }
+      ]
+    },
+    {
+      "c": "record",
+      "en": "memory card",
+      "ipa": "/ˈmeməri kɑːrd/",
+      "zh": "存储卡",
+      "p": [
+        {
+          "r": "me",
+          "en": "The memory card is full.",
+          "zh": "存储卡满了。"
+        }
+      ]
+    },
+    {
+      "c": "record",
+      "en": "microphone stand",
+      "ipa": "/ˈmaɪkrəfoʊn stænd/",
+      "zh": "落地话筒架",
+      "p": [
+        {
+          "r": "me",
+          "en": "Adjust the height here.",
+          "zh": "可以在这里调高度。"
+        }
+      ]
+    },
+    {
+      "c": "problem",
+      "en": "out of order",
+      "ipa": "/aʊt əv ˈɔːrdər/",
+      "zh": "故障停用",
+      "p": [
+        {
+          "r": "me",
+          "en": "This room is out of order today.",
+          "zh": "这间教室今天停用。"
+        }
+      ]
+    },
+    {
+      "c": "problem",
+      "en": "broken",
+      "ipa": "/ˈbroʊkən/",
+      "zh": "坏了",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Something is broken.",
+          "zh": "有东西坏了。"
+        }
+      ]
+    },
+    {
+      "c": "problem",
+      "en": "not working",
+      "ipa": "/nɑːt ˈwɜːrkɪŋ/",
+      "zh": "不工作 / 失灵",
+      "p": [
+        {
+          "r": "ft",
+          "en": "It's not working.",
+          "zh": "它不工作了。"
+        }
+      ]
+    },
+    {
+      "c": "problem",
+      "en": "frozen",
+      "ipa": "/ˈfroʊzən/",
+      "zh": "卡死 / 死机",
+      "p": [
+        {
+          "r": "ft",
+          "en": "The computer is frozen.",
+          "zh": "电脑卡住了。"
+        },
+        {
+          "r": "me",
+          "en": "I'll restart it, wait a moment.",
+          "zh": "我重启一下，稍等。"
+        }
+      ]
+    },
+    {
+      "c": "problem",
+      "en": "repair",
+      "ipa": "/rɪˈper/",
+      "zh": "维修",
+      "p": [
+        {
+          "r": "me",
+          "en": "It will be repaired tomorrow.",
+          "zh": "明天会修好。"
+        }
+      ]
+    },
+    {
+      "c": "problem",
+      "en": "technician",
+      "ipa": "/tekˈnɪʃən/",
+      "zh": "技术人员",
+      "p": [
+        {
+          "r": "me",
+          "en": "I'll call the technician right away.",
+          "zh": "我马上叫技术人员来。"
+        }
+      ]
+    },
+    {
+      "c": "problem",
+      "en": "maintenance",
+      "ipa": "/ˈmeɪntənəns/",
+      "zh": "维护 / 保养",
+      "p": [
+        {
+          "r": "me",
+          "en": "The equipment is under maintenance.",
+          "zh": "设备正在维护中。"
+        }
+      ]
+    },
+    {
+      "c": "problem",
+      "en": "replacement",
+      "ipa": "/rɪˈpleɪsmənt/",
+      "zh": "更换 / 备件",
+      "p": [
+        {
+          "r": "me",
+          "en": "I'll bring a replacement right away.",
+          "zh": "我马上拿备用的来。"
+        }
+      ]
+    },
+    {
+      "c": "problem",
+      "en": "power outage",
+      "ipa": "/ˈpaʊər ˈaʊtɪdʒ/",
+      "zh": "停电",
+      "p": [
+        {
+          "r": "me",
+          "en": "There's a power outage in this building.",
+          "zh": "这栋楼停电了。"
+        }
+      ]
+    },
+    {
+      "c": "problem",
+      "en": "loose connection",
+      "ipa": "/luːs kəˈnekʃən/",
+      "zh": "接触不良",
+      "p": [
+        {
+          "r": "me",
+          "en": "It's a loose connection, I'll re-plug it.",
+          "zh": "是接触不良，我重新插一下。"
+        }
+      ]
+    },
+    {
+      "c": "problem",
+      "en": "overheating",
+      "ipa": "/ˌoʊvərˈhiːtɪŋ/",
+      "zh": "过热",
+      "p": [
+        {
+          "r": "me",
+          "en": "The projector overheated, let it cool down.",
+          "zh": "投影仪过热了，让它冷却一下。"
+        }
+      ]
+    },
+    {
+      "c": "problem",
+      "en": "spare classroom",
+      "ipa": "/sper ˈklæsruːm/",
+      "zh": "备用教室",
+      "p": [
+        {
+          "r": "me",
+          "en": "We can move you to a spare classroom.",
+          "zh": "可以给您换到备用教室。"
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "issue",
+      "zh": "外教反馈故障（听懂他在说什么）",
+      "ico": "🚨",
+      "s": [
+        {
+          "en": "The projector isn't working.",
+          "zh": "投影仪坏了。"
+        },
+        {
+          "en": "There's no sound.",
+          "zh": "没有声音。"
+        },
+        {
+          "en": "The screen is blank.",
+          "zh": "屏幕没画面。"
+        },
+        {
+          "en": "The microphone keeps cutting out.",
+          "zh": "麦克风断断续续。"
+        },
+        {
+          "en": "I can't connect to the Wi-Fi.",
+          "zh": "我连不上无线网。"
+        },
+        {
+          "en": "My laptop doesn't detect the HDMI.",
+          "zh": "我的笔记本检测不到 HDMI。"
+        },
+        {
+          "en": "The image is blurry.",
+          "zh": "画面很模糊。"
+        },
+        {
+          "en": "The remote control doesn't respond.",
+          "zh": "遥控器没反应。"
+        },
+        {
+          "en": "It's too bright in here.",
+          "zh": "这里太亮了。"
+        },
+        {
+          "en": "It's too dark in here.",
+          "zh": "这里太暗了。"
+        },
+        {
+          "en": "Can someone help me with the equipment?",
+          "zh": "能有人帮我弄一下设备吗？"
+        },
+        {
+          "en": "It worked yesterday, but not today.",
+          "zh": "昨天还好好的，今天不行了。"
+        }
+      ]
+    },
+    {
+      "id": "guide",
+      "zh": "你指导外教操作（照着说就行）",
+      "ico": "🗣️",
+      "s": [
+        {
+          "en": "Press the power button on the panel.",
+          "zh": "按面板上的电源键。"
+        },
+        {
+          "en": "Please plug in the HDMI cable.",
+          "zh": "请插上 HDMI 线。"
+        },
+        {
+          "en": "Switch the input to HDMI 1.",
+          "zh": "把信号源切到 HDMI 1。"
+        },
+        {
+          "en": "Turn the volume up a little.",
+          "zh": "把音量调大一点。"
+        },
+        {
+          "en": "Please use this microphone.",
+          "zh": "请用这个麦克风。"
+        },
+        {
+          "en": "Speak a little louder, please.",
+          "zh": "请大声一点。"
+        },
+        {
+          "en": "Wait a moment, I'll restart it.",
+          "zh": "稍等，我重启一下。"
+        },
+        {
+          "en": "Let me show you how it works.",
+          "zh": "我演示一下怎么用。"
+        },
+        {
+          "en": "The password is on the card on the wall.",
+          "zh": "密码在墙上的卡片上。"
+        },
+        {
+          "en": "You can write on the whiteboard here.",
+          "zh": "您可以在这块白板上写。"
+        },
+        {
+          "en": "Everything is working now.",
+          "zh": "现在都正常了。"
+        },
+        {
+          "en": "I'll check it before your next class.",
+          "zh": "下次课前我会提前检查。"
+        }
+      ]
+    },
+    {
+      "id": "class",
+      "zh": "课堂沟通（排课与日常）",
+      "ico": "💬",
+      "s": [
+        {
+          "en": "Class starts at eight.",
+          "zh": "八点开始上课。"
+        },
+        {
+          "en": "This room is booked until ten.",
+          "zh": "这间教室十点前已被借用。"
+        },
+        {
+          "en": "Please sign the attendance sheet.",
+          "zh": "请签一下考勤表。"
+        },
+        {
+          "en": "Do you need anything else?",
+          "zh": "还需要别的吗？"
+        },
+        {
+          "en": "Let me know if you need any help.",
+          "zh": "需要帮助随时告诉我。"
+        },
+        {
+          "en": "The next class is waiting outside.",
+          "zh": "下一个班在外面等着了。"
+        },
+        {
+          "en": "Sorry for the inconvenience.",
+          "zh": "抱歉给您带来不便。"
+        },
+        {
+          "en": "The building closes at ten p.m.",
+          "zh": "这栋楼晚上十点关门。"
+        },
+        {
+          "en": "Please turn off the equipment after class.",
+          "zh": "下课后请关闭设备。"
+        },
+        {
+          "en": "Enjoy your class!",
+          "zh": "上课愉快！"
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "zh": "应急与安全",
+      "ico": "⛑️",
+      "s": [
+        {
+          "en": "Please remain calm.",
+          "zh": "请保持冷静。"
+        },
+        {
+          "en": "The fire exit is over there.",
+          "zh": "安全出口在那边。"
+        },
+        {
+          "en": "There's a power outage, class is cancelled.",
+          "zh": "停电了，课取消。"
+        },
+        {
+          "en": "I'll call campus security.",
+          "zh": "我打电话给校园安保。"
+        },
+        {
+          "en": "Please evacuate the building.",
+          "zh": "请撤离这栋楼。"
+        }
+      ]
+    }
+  ]
+}
