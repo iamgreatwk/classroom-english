@@ -39,6 +39,7 @@ class SettingsPage extends StatelessWidget {
                   onSelectionChanged: (s) => store.setAccent(s.first),
                 ),
               ),
+              _VoicePicker(store: store, tts: tts),
               ListTile(
                 leading: const Icon(Icons.speed_rounded),
                 title: Text('语速 ${store.rate.toStringAsFixed(1)}×'),
@@ -97,6 +98,92 @@ class SettingsPage extends StatelessWidget {
                 subtitle: Text('词表与朗读都不需要联网，收藏保存在本机'),
               ),
               const SizedBox(height: 16),
+            ],
+          ),
+        );
+      },
+    );
+  }
+}
+
+/// 音色选择：列出设备上可用的英语语音
+class _VoicePicker extends StatelessWidget {
+  const _VoicePicker({required this.store, required this.tts});
+
+  final SettingsStore store;
+  final TtsService tts;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return StatefulBuilder(
+      builder: (context, setLocal) {
+        final voices = tts.voices;
+        final names = voices.map((v) => v.name).toList();
+        final current = names.contains(store.voiceName) ? store.voiceName : null;
+
+        return Padding(
+          padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  const Icon(Icons.person_outline_rounded, size: 22),
+                  const SizedBox(width: 18),
+                  Expanded(
+                    child: Text('音色', style: theme.textTheme.titleMedium),
+                  ),
+                  TextButton.icon(
+                    onPressed: () async {
+                      await tts.refreshVoices();
+                      setLocal(() {});
+                    },
+                    icon: const Icon(Icons.refresh_rounded, size: 18),
+                    label: const Text('重新检测'),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 4),
+              Text(
+                voices.isEmpty
+                    ? '当前设备没有可选的英语语音，用的是系统默认音。\n'
+                        'iPhone：设置 → 辅助功能 → 朗读内容 → 声音 → 英语，'
+                        '下载一个「增强」语音后回来点「重新检测」。'
+                    : '选一个听着最舒服的，选完点下面的「试听」对比。',
+                style: theme.textTheme.bodySmall
+                    ?.copyWith(color: theme.colorScheme.outline),
+              ),
+              if (voices.isNotEmpty) ...[
+                const SizedBox(height: 10),
+                DropdownButtonFormField<String?>(
+                  value: current,
+                  isExpanded: true,
+                  decoration: const InputDecoration(
+                    isDense: true,
+                    border: OutlineInputBorder(),
+                    contentPadding:
+                        EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                  ),
+                  items: <DropdownMenuItem<String?>>[
+                    const DropdownMenuItem<String?>(
+                      value: null,
+                      child: Text('自动（系统挑选）'),
+                    ),
+                    ...voices.map(
+                      (v) => DropdownMenuItem<String?>(
+                        value: v.name,
+                        child: Text(
+                          v.name,
+                          overflow: TextOverflow.ellipsis,
+                          style: const TextStyle(fontSize: 14),
+                        ),
+                      ),
+                    ),
+                  ],
+                  onChanged: (v) => store.setVoice(v),
+                ),
+              ],
             ],
           ),
         );

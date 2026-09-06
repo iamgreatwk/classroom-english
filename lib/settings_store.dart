@@ -14,11 +14,15 @@ class SettingsStore extends ChangeNotifier {
   static const _kSlow = 'slow';
   static const _kHideZh = 'hideZh';
   static const _kFavs = 'favs';
+  static const _kVoice = 'voice';
 
   String accent = 'en-US';
   double rate = 1.0;
   bool slow = false;
   bool hideZh = false;
+
+  /// 选中的音色名称，null = 交给系统自动挑选
+  String? voiceName;
 
   final Set<String> favs = <String>{};
 
@@ -32,6 +36,7 @@ class SettingsStore extends ChangeNotifier {
     rate = prefs.getDouble(_kRate) ?? rate;
     slow = prefs.getBool(_kSlow) ?? slow;
     hideZh = prefs.getBool(_kHideZh) ?? hideZh;
+    voiceName = prefs.getString(_kVoice);
     favs
       ..clear()
       ..addAll(prefs.getStringList(_kFavs) ?? const <String>[]);
@@ -40,6 +45,7 @@ class SettingsStore extends ChangeNotifier {
       accent: accent,
       rate: rate,
       slow: slow,
+      voiceName: voiceName,
     );
     notifyListeners();
   }
@@ -51,6 +57,12 @@ class SettingsStore extends ChangeNotifier {
     await prefs.setBool(_kSlow, slow);
     await prefs.setBool(_kHideZh, hideZh);
     await prefs.setStringList(_kFavs, favs.toList());
+    final v = voiceName;
+    if (v == null) {
+      await prefs.remove(_kVoice);
+    } else {
+      await prefs.setString(_kVoice, v);
+    }
   }
 
   Future<void> _applyTts() => TtsService.instance.applySettings(
@@ -58,6 +70,19 @@ class SettingsStore extends ChangeNotifier {
         rate: rate,
         slow: slow,
       );
+
+  /// 选择音色（null = 自动）
+  Future<void> setVoice(String? name) async {
+    voiceName = name;
+    notifyListeners();
+    await TtsService.instance.applySettings(
+      accent: accent,
+      rate: rate,
+      slow: slow,
+      voiceName: name,
+    );
+    await _save();
+  }
 
   Future<void> setAccent(String v) async {
     accent = v;

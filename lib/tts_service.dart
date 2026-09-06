@@ -1,7 +1,18 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
-/// 朗读服务：口音、语速、慢速
+/// 一个可用的语音
+class TtsVoice {
+  const TtsVoice({required this.name, required this.locale});
+
+  final String name;
+  final String locale;
+
+  @override
+  String toString() => name;
+}
+
+/// 朗读服务：音色、口音、语速、慢速
 class TtsService {
   TtsService._();
 
@@ -13,10 +24,15 @@ class TtsService {
   double rate = 1.0;
   bool slow = false;
 
+  /// 选中的音色名称，null/空 = 交给系统自动挑选
+  String? voiceName;
+
+  /// 设备上可用的英语语音
+  final List<TtsVoice> voices = <TtsVoice>[];
+
   bool _ready = false;
   bool _available = true;
 
-  /// 浏览器/系统不支持朗读时为 false，UI 可据此提示
   bool get available => _available;
 
   String? _error;
@@ -30,16 +46,63 @@ class TtsService {
         _error = msg.toString();
         debugPrint('TTS error: $_error');
       });
-      await _tts.setLanguage(accent);
+      await _loadVoices();
+      await _applyVoice();
       await _tts.setVolume(1.0);
       await _tts.setPitch(1.0);
       await _applyRate();
       _ready = true;
+      debugPrint('TTS ready, 英语语音 ${voices.length} 个：'
+          '${voices.map((v) => v.name).take(8).join(" / ")}');
     } catch (e) {
       _error = e.toString();
       _available = false;
       debugPrint('TTS init failed: $e');
     }
+  }
+
+  Future<void> _loadVoices() async {
+    try {
+      final raw = await _tts.getVoices;
+      if (raw == null) return;
+      voices
+        ..clear()
+        ..addAll(
+          (raw as List)
+              .whereType<Map>()
+              .map(
+                (m) => TtsVoice(
+                  name: m['name']?.toString() ?? '',
+                  locale: m['locale']?.toString() ?? '',
+                ),
+              )
+              .where(
+                (v) => v.name.isNotEmpty &&
+                    v.locale.toLowerCase().startsWith('en'),
+              )
+              .toList(),
+        );
+      voices.sort((a, b) => a.name.compareTo(b.name));
+    } catch (e) {
+      debugPrint('TTS getVoices failed: $e');
+    }
+  }
+
+  /// 应用当前音色设置（优先用指定音色，否则按口音交给系统挑）
+  Future<void> _applyVoice() async {
+    final v = voiceName;
+    if (v != null && v.isNotEmpty) {
+      final hit = voices.where((e) => e.name == v).toList();
+      if (hit.isNotEmpty) {
+        try {
+          await _tts.setVoice({'name': hit.first.name, 'locale': hit.first.locale});
+          return;
+        } catch (e) {
+          debugPrint('TTS setVoice failed: $e');
+        }
+      }
+    }
+    await _tts.setLanguage(accent);
   }
 
   Future<void> _applyRate() async {
@@ -52,13 +115,15 @@ class TtsService {
     required String accent,
     required double rate,
     required bool slow,
+    String? voiceName,
   }) async {
     this.accent = accent;
     this.rate = rate;
     this.slow = slow;
+    if (voiceName != null) this.voiceName = voiceName;
     if (!_ready) return;
     try {
-      await _tts.setLanguage(accent);
+      await _applyVoice();
       await _applyRate();
     } catch (e) {
       debugPrint('TTS applySettings failed: $e');
@@ -72,14 +137,27 @@ class TtsService {
     if (!_available) return;
     try {
       await _tts.stop();
-      await _tts.setLanguage(accent);
+      await _applyVoice();
       await _applyRate();
-      final result = await _tts.speak(t);
-      debugPrint('TTS speak: $t -> $result');
+      await _tts.speak(t);
     } catch (e) {
       _error = e.toString();
       debugPrint('TTS speak failed: $e');
     }
+  }
+
+  /// 重新检测可用语音（部分浏览器要等语音引擎就绪后才有列表）
+  Future<void> refreshVoices() async {
+    await _loadVoices();
+    if (_ready) await _applyVoice();
+  }
+
+  /// 换个音色试听同一句，方便对比
+  Future<void> preview(String voice, {String text = 'The projector is working now.'}) async {
+    final old = voiceName;
+    voiceName = voice;
+    await speak(text);
+    voiceName = old;
   }
 
   Future<void> stop() async {
