@@ -1767,6 +1767,73 @@
           "zh": "这间教室现在有人用了。"
         }
       ]
+    },
+    {
+      "id": "thanks",
+      "zh": "回应感谢（外教说 Thank you 之后）",
+      "ico": "🙌",
+      "s": [
+        {
+          "en": "You're welcome.",
+          "zh": "不客气。"
+        },
+        {
+          "en": "No problem.",
+          "zh": "没问题。"
+        },
+        {
+          "en": "No worries.",
+          "zh": "别客气。"
+        },
+        {
+          "en": "Not at all.",
+          "zh": "不用谢。"
+        },
+        {
+          "en": "My pleasure.",
+          "zh": "我的荣幸。"
+        },
+        {
+          "en": "Anytime.",
+          "zh": "随时乐意效劳。"
+        },
+        {
+          "en": "Happy to help.",
+          "zh": "很高兴能帮上忙。"
+        },
+        {
+          "en": "Glad I could help.",
+          "zh": "很高兴帮到了您。"
+        },
+        {
+          "en": "Don't mention it.",
+          "zh": "别客气，不值一提。"
+        },
+        {
+          "en": "It's nothing.",
+          "zh": "没什么。"
+        },
+        {
+          "en": "You got it.",
+          "zh": "包在我身上。"
+        },
+        {
+          "en": "Sure thing.",
+          "zh": "当然，小事一桩。"
+        },
+        {
+          "en": "No trouble at all.",
+          "zh": "一点都不麻烦。"
+        },
+        {
+          "en": "That's what I'm here for.",
+          "zh": "这是我应该做的。"
+        },
+        {
+          "en": "It was the least I could do.",
+          "zh": "这是我起码能做的。"
+        }
+      ]
     }
   ]
 }
