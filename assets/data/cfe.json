@@ -1539,6 +1539,234 @@
           "zh": "请撤离这栋楼。"
         }
       ]
+    },
+    {
+      "id": "greet",
+      "zh": "日常问候（打招呼与道别）",
+      "ico": "🤚",
+      "s": [
+        {
+          "en": "Good morning!",
+          "zh": "早上好！"
+        },
+        {
+          "en": "Good afternoon!",
+          "zh": "下午好！"
+        },
+        {
+          "en": "Good evening!",
+          "zh": "晚上好！"
+        },
+        {
+          "en": "Hello, nice to see you again.",
+          "zh": "您好，很高兴又见到您。"
+        },
+        {
+          "en": "How are you today?",
+          "zh": "您今天好吗？"
+        },
+        {
+          "en": "How was your class?",
+          "zh": "课上得怎么样？"
+        },
+        {
+          "en": "Did you have a good weekend?",
+          "zh": "周末过得愉快吗？"
+        },
+        {
+          "en": "Long time no see.",
+          "zh": "好久不见。"
+        },
+        {
+          "en": "Have a nice day!",
+          "zh": "祝您今天愉快！"
+        },
+        {
+          "en": "See you tomorrow.",
+          "zh": "明天见。"
+        },
+        {
+          "en": "See you next week.",
+          "zh": "下周见。"
+        },
+        {
+          "en": "Goodbye, take care.",
+          "zh": "再见，保重。"
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "zh": "礼貌用语（没听懂时也能用）",
+      "ico": "🙏",
+      "s": [
+        {
+          "en": "Excuse me.",
+          "zh": "打扰一下。"
+        },
+        {
+          "en": "Just a moment, please.",
+          "zh": "请稍等一下。"
+        },
+        {
+          "en": "Thank you very much.",
+          "zh": "非常感谢。"
+        },
+        {
+          "en": "You're welcome.",
+          "zh": "不客气。"
+        },
+        {
+          "en": "My pleasure.",
+          "zh": "乐意为您效劳。"
+        },
+        {
+          "en": "Sorry to keep you waiting.",
+          "zh": "抱歉让您久等了。"
+        },
+        {
+          "en": "Could you say that again, please?",
+          "zh": "能再说一遍吗？"
+        },
+        {
+          "en": "Could you speak a little slower, please?",
+          "zh": "能说慢一点吗？"
+        },
+        {
+          "en": "I'm afraid I don't understand.",
+          "zh": "抱歉，我没听懂。"
+        },
+        {
+          "en": "Let me write it down for you.",
+          "zh": "我写给您看。"
+        },
+        {
+          "en": "After you.",
+          "zh": "您先请。"
+        },
+        {
+          "en": "No problem at all.",
+          "zh": "完全没问题。"
+        },
+        {
+          "en": "Please let me know if you need anything.",
+          "zh": "需要什么随时告诉我。"
+        }
+      ]
+    },
+    {
+      "id": "lost",
+      "zh": "失物相关（捡到东西 / 丢了东西）",
+      "ico": "🔍",
+      "s": [
+        {
+          "en": "Is this yours?",
+          "zh": "这是您的吗？"
+        },
+        {
+          "en": "I found this in the classroom.",
+          "zh": "我在教室里捡到的。"
+        },
+        {
+          "en": "Someone left this behind.",
+          "zh": "有人落下了这个。"
+        },
+        {
+          "en": "Did you lose something?",
+          "zh": "您丢东西了吗？"
+        },
+        {
+          "en": "What does it look like?",
+          "zh": "它是什么样的？"
+        },
+        {
+          "en": "When did you last see it?",
+          "zh": "您最后一次见到它是什么时候？"
+        },
+        {
+          "en": "I'll check the lost and found.",
+          "zh": "我帮您查一下失物招领处。"
+        },
+        {
+          "en": "It's in the lost and found office.",
+          "zh": "在失物招领处。"
+        },
+        {
+          "en": "Nobody has handed it in yet.",
+          "zh": "还没人上交。"
+        },
+        {
+          "en": "We'll keep it for you.",
+          "zh": "我们帮您保管。"
+        },
+        {
+          "en": "I'll let you know if someone finds it.",
+          "zh": "有人捡到我会通知您。"
+        },
+        {
+          "en": "Please sign here when you take it.",
+          "zh": "领取时请在这里签字。"
+        },
+        {
+          "en": "Can I have your phone number?",
+          "zh": "能留个电话号码吗？"
+        }
+      ]
+    },
+    {
+      "id": "find",
+      "zh": "找教室 / 指路",
+      "ico": "🧭",
+      "s": [
+        {
+          "en": "Where is Room 305?",
+          "zh": "305 教室在哪儿？"
+        },
+        {
+          "en": "It's on the third floor.",
+          "zh": "在三楼。"
+        },
+        {
+          "en": "Take the elevator to the fifth floor.",
+          "zh": "坐电梯到五楼。"
+        },
+        {
+          "en": "Go straight and turn left.",
+          "zh": "直走然后左转。"
+        },
+        {
+          "en": "It's at the end of the hallway.",
+          "zh": "在走廊尽头。"
+        },
+        {
+          "en": "It's the second door on your right.",
+          "zh": "右手边第二个门。"
+        },
+        {
+          "en": "It's next to the stairway.",
+          "zh": "在楼梯旁边。"
+        },
+        {
+          "en": "This way, please.",
+          "zh": "请这边走。"
+        },
+        {
+          "en": "I'll show you the way.",
+          "zh": "我带您去。"
+        },
+        {
+          "en": "The restroom is over there.",
+          "zh": "洗手间在那边。"
+        },
+        {
+          "en": "You're in the wrong building.",
+          "zh": "您走错楼了。"
+        },
+        {
+          "en": "This classroom is booked now.",
+          "zh": "这间教室现在有人用了。"
+        }
+      ]
     }
   ]
 }

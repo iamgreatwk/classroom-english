@@ -13,7 +13,7 @@ void main() {
 
     expect(data.cats.length, 8);
     expect(data.words.length, greaterThan(50));
-    expect(data.groups.length, 4);
+    expect(data.groups.length, 8);
 
     // 每个词条的分类必须存在于分类表
     final ids = data.cats.map((c) => c.id).toSet();
@@ -30,8 +30,8 @@ void main() {
       }
     }
 
-    // 短句数量与导出一致
+    // 短句数量与数据一致（故障/指导/课堂/应急/问候/礼貌/失物/找教室）
     final n = data.groups.fold<int>(0, (s, g) => s + g.sentences.length);
-    expect(n, 39);
+    expect(n, 89);
   });
 }
