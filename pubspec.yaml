@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   flutter_tts: ^4.2.5
   shared_preferences: ^2.3.3
+  audioplayers: ^5.2.1
 
 dev_dependencies:
   flutter_test:
@@ -60,8 +61,12 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  # 目录形式不会递归子目录，每个口音目录都要单独登记
   assets:
     - assets/data/cfe.json
+    - assets/audio/manifest.json
+    - assets/audio/en-US/
+    - assets/audio/en-GB/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

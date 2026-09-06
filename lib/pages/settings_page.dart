@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../audio_service.dart';
 import '../models.dart';
 import '../settings_store.dart';
 import '../tts_service.dart';
@@ -27,6 +28,7 @@ class SettingsPage extends StatelessWidget {
           body: ListView(
             children: [
               const _SectionTitle('发音'),
+              _OfflineAudioTile(store: store),
               ListTile(
                 leading: const Icon(Icons.record_voice_over_rounded),
                 title: const Text('口音'),
@@ -102,6 +104,31 @@ class SettingsPage extends StatelessWidget {
           ),
         );
       },
+    );
+  }
+}
+
+/// 离线真人发音（微软神经语音 MP3）开关
+class _OfflineAudioTile extends StatelessWidget {
+  const _OfflineAudioTile({required this.store});
+
+  final SettingsStore store;
+
+  @override
+  Widget build(BuildContext context) {
+    final audio = AudioService.instance;
+    final n = audio.countOf(store.accent);
+    final accentName = store.accent == 'en-GB' ? '英音' : '美音';
+    return SwitchListTile(
+      secondary: const Icon(Icons.high_quality_rounded),
+      title: const Text('离线真人发音'),
+      subtitle: Text(
+        audio.hasPack
+            ? '微软神经语音，已打包$accentName $n 条'
+            : '未打包离线音频，使用系统语音',
+      ),
+      value: store.offlineAudio && audio.hasPack,
+      onChanged: audio.hasPack ? (v) => store.setOfflineAudio(v) : null,
     );
   }
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'audio_service.dart';
 import 'tts_service.dart';
 
 /// 收藏与设置的本地存储（收藏键：'w:单词' / 's:句子'）
@@ -15,11 +16,15 @@ class SettingsStore extends ChangeNotifier {
   static const _kHideZh = 'hideZh';
   static const _kFavs = 'favs';
   static const _kVoice = 'voice';
+  static const _kOffline = 'offlineAudio';
 
   String accent = 'en-US';
   double rate = 1.0;
   bool slow = false;
   bool hideZh = false;
+
+  /// 是否优先播放离线真人发音（微软神经语音 MP3）
+  bool offlineAudio = true;
 
   /// 选中的音色名称，null = 交给系统自动挑选
   String? voiceName;
@@ -31,8 +36,11 @@ class SettingsStore extends ChangeNotifier {
 
   Future<void> load() async {
     if (_loaded) return;
+    await AudioService.instance.init();
     final prefs = await SharedPreferences.getInstance();
     accent = prefs.getString(_kAccent) ?? accent;
+    offlineAudio = prefs.getBool(_kOffline) ?? offlineAudio;
+    AudioService.instance.enabled = offlineAudio;
     rate = prefs.getDouble(_kRate) ?? rate;
     slow = prefs.getBool(_kSlow) ?? slow;
     hideZh = prefs.getBool(_kHideZh) ?? hideZh;
@@ -56,6 +64,7 @@ class SettingsStore extends ChangeNotifier {
     await prefs.setDouble(_kRate, rate);
     await prefs.setBool(_kSlow, slow);
     await prefs.setBool(_kHideZh, hideZh);
+    await prefs.setBool(_kOffline, offlineAudio);
     await prefs.setStringList(_kFavs, favs.toList());
     final v = voiceName;
     if (v == null) {
@@ -65,11 +74,25 @@ class SettingsStore extends ChangeNotifier {
     }
   }
 
-  Future<void> _applyTts() => TtsService.instance.applySettings(
-        accent: accent,
-        rate: rate,
-        slow: slow,
-      );
+  Future<void> _applyTts() async {
+    AudioService.instance
+      ..rate = rate
+      ..slow = slow;
+    await TtsService.instance.applySettings(
+      accent: accent,
+      rate: rate,
+      slow: slow,
+    );
+  }
+
+  /// 是否优先播放离线真人发音
+  Future<void> setOfflineAudio(bool v) async {
+    offlineAudio = v;
+    AudioService.instance.enabled = v;
+    if (!v) await AudioService.instance.stop();
+    notifyListeners();
+    await _save();
+  }
 
   /// 选择音色（null = 自动）
   Future<void> setVoice(String? name) async {

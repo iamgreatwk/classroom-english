@@ -1,6 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
+import 'audio_service.dart';
+
 /// 一个可用的语音
 class TtsVoice {
   const TtsVoice({required this.name, required this.locale});
@@ -130,9 +132,17 @@ class TtsService {
     }
   }
 
+  /// 朗读：优先离线音频（微软神经语音），没有则回退系统语音
   Future<void> speak(String text) async {
     final t = text.trim();
     if (t.isEmpty) return;
+
+    final played = await AudioService.instance.play(accent, t);
+    if (played) {
+      debugPrint('TTS 离线音频：${audioSlug(t)}.mp3');
+      return;
+    }
+
     await init();
     if (!_available) return;
     try {
