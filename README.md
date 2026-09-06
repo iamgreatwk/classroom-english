@@ -37,6 +37,57 @@ flutter build web --release --web-renderer html   # 便于自动化测试定位�
 
 > 本机没有系统 Chrome 时，用 `flutter run -d web-server` 起服务，再用任意浏览器访问即可。
 
+## 发音（两套，自动切换）
+
+点单词或句子时：
+
+1. **优先播离线 MP3** —— 微软 Edge 神经语音预生成的真人发音，`en-US-AriaNeural`（美音女）/ `en-GB-SoniaNeural`（英音女）
+2. **没有 MP3 才用系统语音** —— 浏览器/系统自带的 TTS，可在「设置 → 音色」里挑
+
+设置页有「离线真人发音」开关，并显示已打包条数。
+
+### 重新生成 / 更换音色
+
+```bash
+python3 -m pip install --target /tmp/ttslib edge-tts
+
+PYTHONPATH=/tmp/ttslib python3 tools/gen_audio.py --list          # 看会生成哪些
+PYTHONPATH=/tmp/ttslib python3 tools/gen_audio.py --limit 5       # 试 5 条
+PYTHONPATH=/tmp/ttslib python3 tools/gen_audio.py                 # 全部（美音+英音，7MB）
+PYTHONPATH=/tmp/ttslib python3 tools/gen_audio.py --accent en-US  # 只要美音
+PYTHONPATH=/tmp/ttslib python3 tools/gen_audio.py --voice en-US-GuyNeural --accent en-US  # 换男声
+```
+
+音色在 `tools/gen_audio.py` 顶部的 `VOICES` 里改（微软神经语音名，与
+`agent-os/tts/tts.sh` 里验证过的是同一套服务）。
+
+生成完要重新构建发布：
+
+```bash
+flutter build web --release --base-href "/classroom-english/"
+# 然后把 build/web 推到 gh-pages 分支
+```
+
+### 平台差异
+
+| 平台 | 播放方式 |
+|---|---|
+| Web | `dart:html` 的 AudioElement（读 asset 转 Blob 播放，不依赖插件） |
+| iOS / Android | `audioplayers` 原生播放器（AVPlayer / MediaPlayer） |
+
+代码见 `lib/audio/`（条件导入）。> 注意：`audioplayers` 6.x 在 Flutter 3.22 的 Web 端不兼容（插件注册失败），
+> 所以 Web 端绕开了它；原生端不受影响。升级 Flutter 后可考虑统一。
+
+### 新增口音目录要登记
+
+Flutter 的 `assets:` 目录声明**不递归子目录**，`pubspec.yaml` 里每个口音目录都要单独写：
+
+```yaml
+    - assets/audio/manifest.json
+    - assets/audio/en-US/
+    - assets/audio/en-GB/
+```
+
 ## 定制词表
 
 直接编辑 `assets/data/cfe.json`（热重启生效）：
