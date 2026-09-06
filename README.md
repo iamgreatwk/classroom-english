@@ -82,14 +82,18 @@ git init -b gh-pages /tmp/$REPO-pages-deploy   # 或用 worktree / 直接推分�
 
 本机是 Linux，无法直接打 iOS 包，用 GitHub Actions 构建（macOS runner）：
 
-```bash
-# 触发构建（workflow_dispatch），产出 IPA 并上传到 GitHub Release
-git tag ios-latest && git push origin ios-latest
-# 或在 GitHub 网页 Actions → Build iOS → Run workflow
-```
+1. GitHub 仓库 → **Actions** → 「构建 iOS IPA」→ **Run workflow**
+2. 跑完在仓库右侧 **Releases** → `ios-latest` 里下载 `classroom-english-unsigned.ipa`
+   （也可在 Actions 的 Job Summary 里直接点下载链接）
 
-CI 脚本见 `.github/workflows/build-ios.yml`，产出未签名 IPA，用爱思/AltStore 等工具安装；
-若要上架或长期安装，需在 workflow 里配置开发者证书与描述文件。
+产物只发 Release，**不使用 Actions artifact**（Release 附件不占用账户的 500MB Actions 存储配额）；
+每次覆盖同一个 `ios-latest` 发布，不会堆积历史附件。
+
+产出的是**未签名 IPA**，需用爱思助手 / AltStore 等工具签名后安装；若要上架或长期安装，
+需在工作流里配置开发者证书与描述文件（把 `--no-codesign` 换成导出描述文件的方式）。
+
+> ⚠️ macOS runner 按 **10 倍** 计费，每次构建约消耗账户 Actions 分钟数的 100~200 分钟
+> （Free 账户每月 2000 分钟）。确认好再触发，别反复跑。
 
 ## 功能一览
 
