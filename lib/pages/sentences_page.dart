@@ -70,31 +70,32 @@ class _SentencesPageState extends State<SentencesPage> {
         }
 
         return Scaffold(
-          appBar: AppBar(
-            title: const Text('常用短句'),
-            bottom: PreferredSize(
-              preferredSize: const Size.fromHeight(56),
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(12, 0, 12, 10),
+          appBar: AppBar(title: const Text('常用短句')),
+          body: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.fromLTRB(12, 10, 12, 6),
                 child: SearchField(
                   controller: _ctrl,
                   onChanged: (v) => setState(() => _query = v),
                 ),
               ),
-            ),
+              Expanded(
+                child: total == 0
+                    ? const EmptyView(
+                        text: '没有匹配的句子',
+                        icon: Icons.search_off_rounded,
+                      )
+                    : ListView(
+                        children: [
+                          const SizedBox(height: 6),
+                          ...items,
+                          const SizedBox(height: 24),
+                        ],
+                      ),
+              ),
+            ],
           ),
-          body: total == 0
-              ? const EmptyView(
-                  text: '没有匹配的句子',
-                  icon: Icons.search_off_rounded,
-                )
-              : ListView(
-                  children: [
-                    const SizedBox(height: 6),
-                    ...items,
-                    const SizedBox(height: 24),
-                  ],
-                ),
         );
       },
     );

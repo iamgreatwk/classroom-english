@@ -334,6 +334,9 @@ class SearchField extends StatelessWidget {
       controller: controller,
       onChanged: onChanged,
       textInputAction: TextInputAction.search,
+      // 关闭自动纠正/联想，避免 iOS 上输入卡片跳来跳去、点不准
+      autocorrect: false,
+      enableSuggestions: false,
       decoration: InputDecoration(
         hintText: hint,
         hintStyle: const TextStyle(fontSize: 15),
@@ -341,7 +344,7 @@ class SearchField extends StatelessWidget {
         isDense: true,
         filled: true,
         fillColor: Theme.of(context).colorScheme.surfaceContainerHighest.withOpacity(0.5),
-        contentPadding: const EdgeInsets.symmetric(vertical: 0),
+        contentPadding: const EdgeInsets.symmetric(vertical: 12),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(12),
           borderSide: BorderSide.none,

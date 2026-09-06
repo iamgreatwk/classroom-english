@@ -53,22 +53,23 @@ class _WordsPageState extends State<WordsPage> {
             : <WordEntry>[];
 
         return Scaffold(
-          appBar: AppBar(
-            title: const Text('教室设施英语'),
-            bottom: PreferredSize(
-              preferredSize: const Size.fromHeight(56),
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(12, 0, 12, 10),
+          appBar: AppBar(title: const Text('教室设施英语')),
+          body: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.fromLTRB(12, 10, 12, 6),
                 child: SearchField(
                   controller: _ctrl,
                   onChanged: (v) => setState(() => _query = v),
                 ),
               ),
-            ),
+              Expanded(
+                child: searching
+                    ? _buildResults(results, store)
+                    : _buildCategories(context),
+              ),
+            ],
           ),
-          body: searching
-              ? _buildResults(results, store)
-              : _buildCategories(context),
         );
       },
     );
