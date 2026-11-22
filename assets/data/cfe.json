@@ -8,6 +8,12 @@
       "ico": "📽️"
     },
     {
+      "id": "computer",
+      "zh": "电脑与外设",
+      "en": "Computers & Peripherals",
+      "ico": "💻"
+    },
+    {
       "id": "audio",
       "zh": "音响设备",
       "en": "Audio & Microphone",
@@ -1449,6 +1455,270 @@
         }
       ],
       "ico": "🏫"
+    },
+    {
+      "c": "computer",
+      "en": "desktop computer",
+      "ipa": "/ˈdesktɑːp kəmˈpjuːtər/",
+      "zh": "台式电脑",
+      "ico": "🖥️",
+      "p": [
+        {
+          "r": "me",
+          "en": "Use the desktop computer on the podium.",
+          "zh": "用讲台上的台式电脑。"
+        }
+      ]
+    },
+    {
+      "c": "computer",
+      "en": "monitor",
+      "ipa": "/ˈmɑːnɪtər/",
+      "zh": "显示器",
+      "ico": "📺",
+      "p": [
+        {
+          "r": "ft",
+          "en": "The monitor is black.",
+          "zh": "显示器黑屏了。"
+        },
+        {
+          "r": "me",
+          "en": "Check the power cable of the monitor.",
+          "zh": "检查一下显示器的电源线。"
+        }
+      ]
+    },
+    {
+      "c": "computer",
+      "en": "keyboard",
+      "ipa": "/ˈkiːbɔːrd/",
+      "zh": "键盘",
+      "ico": "⌨️",
+      "p": [
+        {
+          "r": "ft",
+          "en": "The keyboard is not responding.",
+          "zh": "键盘没反应。"
+        },
+        {
+          "r": "me",
+          "en": "Try another USB port for the keyboard.",
+          "zh": "给键盘换个 USB 口试试。"
+        }
+      ]
+    },
+    {
+      "c": "computer",
+      "en": "mouse",
+      "ipa": "/maʊs/",
+      "zh": "鼠标",
+      "ico": "🐭",
+      "p": [
+        {
+          "r": "ft",
+          "en": "The mouse is frozen.",
+          "zh": "鼠标不动了。"
+        },
+        {
+          "r": "me",
+          "en": "The mouse battery is dead.",
+          "zh": "鼠标电池没电了。"
+        }
+      ]
+    },
+    {
+      "c": "computer",
+      "en": "mouse pad",
+      "ipa": "/maʊs pæd/",
+      "zh": "鼠标垫",
+      "ico": "🟦",
+      "p": [
+        {
+          "r": "me",
+          "en": "Here's a mouse pad if you need one.",
+          "zh": "需要的话给您一个鼠标垫。"
+        }
+      ]
+    },
+    {
+      "c": "computer",
+      "en": "webcam",
+      "ipa": "/ˈwebkæm/",
+      "zh": "摄像头（电脑用）",
+      "ico": "👀",
+      "p": [
+        {
+          "r": "ft",
+          "en": "The webcam light is on.",
+          "zh": "摄像头的灯亮着。"
+        },
+        {
+          "r": "me",
+          "en": "The webcam is built into the monitor.",
+          "zh": "摄像头是内置在显示器里的。"
+        }
+      ]
+    },
+    {
+      "c": "computer",
+      "en": "headset",
+      "ipa": "/ˈhedset/",
+      "zh": "耳麦",
+      "ico": "🎧",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Where can I plug in my headset?",
+          "zh": "我的耳麦插在哪里？"
+        },
+        {
+          "r": "me",
+          "en": "Use this headset for online classes.",
+          "zh": "线上课用这个耳麦。"
+        }
+      ]
+    },
+    {
+      "c": "computer",
+      "en": "USB cable",
+      "ipa": "/ˌjuː es ˈbiː ˈkeɪbl/",
+      "zh": "USB 数据线",
+      "ico": "🔗",
+      "p": [
+        {
+          "r": "me",
+          "en": "Use this USB cable to connect the mouse.",
+          "zh": "用这根 USB 线连接鼠标。"
+        }
+      ]
+    },
+    {
+      "c": "computer",
+      "en": "VGA-to-HDMI converter",
+      "ipa": "/ˌviː dʒiː eɪ tuː ˈeɪtʃ diː aɪ em kənˈvɜːrtər/",
+      "zh": "VGA 转 HDMI 转换器",
+      "ico": "🔄",
+      "p": [
+        {
+          "r": "me",
+          "en": "Use this VGA-to-HDMI converter for the old laptop.",
+          "zh": "旧笔记本用这个 VGA 转 HDMI 转换器。"
+        },
+        {
+          "r": "ft",
+          "en": "No image comes through the converter.",
+          "zh": "通过转换器没有画面。"
+        }
+      ]
+    },
+    {
+      "c": "computer",
+      "en": "HDMI-to-VGA adapter",
+      "ipa": "/ˌeɪtʃ diː aɪ em tuː ˌviː dʒiː eɪ əˈdæptər/",
+      "zh": "HDMI 转 VGA 转接器",
+      "ico": "↔️",
+      "p": [
+        {
+          "r": "me",
+          "en": "The projector only supports VGA, use this adapter.",
+          "zh": "投影仪只支持 VGA，用这个转接器。"
+        }
+      ]
+    },
+    {
+      "c": "computer",
+      "en": "power adapter",
+      "ipa": "/ˈpaʊər əˈdæptər/",
+      "zh": "电源适配器",
+      "ico": "⚡",
+      "p": [
+        {
+          "r": "ft",
+          "en": "I forgot my power adapter.",
+          "zh": "我忘带电源适配器了。"
+        },
+        {
+          "r": "me",
+          "en": "What brand is your laptop? I'll find a matching one.",
+          "zh": "您的电脑什么牌子？我找配套的。"
+        }
+      ]
+    },
+    {
+      "c": "computer",
+      "en": "charger",
+      "ipa": "/ˈtʃɑːrdʒər/",
+      "zh": "充电器",
+      "ico": "🔋",
+      "p": [
+        {
+          "r": "me",
+          "en": "There's a phone charger at the podium.",
+          "zh": "讲台上有手机充电器。"
+        }
+      ]
+    },
+    {
+      "c": "computer",
+      "en": "power cord",
+      "ipa": "/ˈpaʊər kɔːrd/",
+      "zh": "电源线",
+      "ico": "🧶",
+      "p": [
+        {
+          "r": "me",
+          "en": "The power cord is behind the desk.",
+          "zh": "电源线在桌子后面。"
+        }
+      ]
+    },
+    {
+      "c": "computer",
+      "en": "tablet",
+      "ipa": "/ˈtæblət/",
+      "zh": "平板电脑",
+      "ico": "📱",
+      "p": [
+        {
+          "r": "me",
+          "en": "You can connect your tablet to the screen.",
+          "zh": "您的平板可以投到屏幕上。"
+        }
+      ]
+    },
+    {
+      "c": "computer",
+      "en": "smartphone",
+      "ipa": "/ˈsmɑːrtfoʊn/",
+      "zh": "智能手机",
+      "ico": "📲",
+      "p": [
+        {
+          "r": "me",
+          "en": "Screen mirroring works with smartphones too.",
+          "zh": "智能手机也能投屏。"
+        }
+      ]
+    },
+    {
+      "c": "computer",
+      "en": "bluetooth",
+      "ipa": "/ˈbluːtuːθ/",
+      "zh": "蓝牙",
+      "ico": "🔵",
+      "p": [
+        {
+          "r": "ft",
+          "en": "Can I connect via bluetooth?",
+          "zh": "我能用蓝牙连接吗？"
+        },
+        {
+          "r": "me",
+          "en": "Turn on bluetooth and pair with the speaker.",
+          "zh": "打开蓝牙，和音箱配对。"
+        }
+      ]
     }
   ],
   "groups": [

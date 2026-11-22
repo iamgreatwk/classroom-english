@@ -11,8 +11,8 @@ void main() {
     final text = await rootBundle.loadString('assets/data/cfe.json');
     final data = CfeData.fromJson(json.decode(text) as Map<String, dynamic>);
 
-    expect(data.cats.length, 8);
-    expect(data.words.length, greaterThan(50));
+    expect(data.cats.length, 9);
+    expect(data.words.length, greaterThan(100));
     expect(data.groups.length, 14);
 
     // 每个词条的分类必须存在于分类表
