@@ -67,7 +67,8 @@
           "en": "Let me check the power switch.",
           "zh": "我检查一下电源开关。"
         }
-      ]
+      ],
+      "ico": "📽️"
     },
     {
       "c": "display",
@@ -85,7 +86,8 @@
           "en": "Press \"screen down\" on the panel.",
           "zh": "按面板上的“幕布下降”。"
         }
-      ]
+      ],
+      "ico": "📺"
     },
     {
       "c": "display",
@@ -103,7 +105,8 @@
           "en": "Yes, use your finger or the pen.",
           "zh": "可以，用手或触控笔。"
         }
-      ]
+      ],
+      "ico": "👆"
     },
     {
       "c": "display",
@@ -116,7 +119,8 @@
           "en": "Please plug the HDMI cable into your laptop.",
           "zh": "请把 HDMI 线插到您的电脑上。"
         }
-      ]
+      ],
+      "ico": "🧵"
     },
     {
       "c": "display",
@@ -129,7 +133,8 @@
           "en": "You need this adapter for your old laptop.",
           "zh": "旧款笔记本需要这个转接头。"
         }
-      ]
+      ],
+      "ico": "🧩"
     },
     {
       "c": "display",
@@ -142,7 +147,8 @@
           "en": "Do you have a USB-C hub?",
           "zh": "有 Type-C 扩展坞吗？"
         }
-      ]
+      ],
+      "ico": "🔀"
     },
     {
       "c": "display",
@@ -160,7 +166,8 @@
           "en": "The batteries are dead, I'll replace them.",
           "zh": "电池没电了，我换一下。"
         }
-      ]
+      ],
+      "ico": "📟"
     },
     {
       "c": "display",
@@ -173,7 +180,8 @@
           "en": "Use this clicker to change slides.",
           "zh": "用这个翻页笔切换幻灯片。"
         }
-      ]
+      ],
+      "ico": "🖱️"
     },
     {
       "c": "display",
@@ -186,7 +194,8 @@
           "en": "Here is a laser pointer for you.",
           "zh": "这支激光笔给您用。"
         }
-      ]
+      ],
+      "ico": "🔦"
     },
     {
       "c": "display",
@@ -199,7 +208,8 @@
           "en": "You can write on the whiteboard.",
           "zh": "您可以在白板上写。"
         }
-      ]
+      ],
+      "ico": "📋"
     },
     {
       "c": "display",
@@ -212,7 +222,8 @@
           "en": "These markers are dried out.",
           "zh": "这些白板笔干了。"
         }
-      ]
+      ],
+      "ico": "🖊️"
     },
     {
       "c": "display",
@@ -225,7 +236,8 @@
           "en": "The blackboard is behind you.",
           "zh": "黑板在您身后。"
         }
-      ]
+      ],
+      "ico": "⬛"
     },
     {
       "c": "display",
@@ -238,7 +250,8 @@
           "en": "Where is the chalk?",
           "zh": "粉笔在哪里？"
         }
-      ]
+      ],
+      "ico": "🖍️"
     },
     {
       "c": "display",
@@ -251,7 +264,8 @@
           "en": "The eraser is on the tray.",
           "zh": "板擦在笔槽里。"
         }
-      ]
+      ],
+      "ico": "🧽"
     },
     {
       "c": "display",
@@ -264,7 +278,8 @@
           "en": "Set the resolution to 1920 by 1080.",
           "zh": "把分辨率设成 1920×1080。"
         }
-      ]
+      ],
+      "ico": "📐"
     },
     {
       "c": "display",
@@ -282,7 +297,8 @@
           "en": "Let me switch the input to HDMI.",
           "zh": "我把信号源切到 HDMI。"
         }
-      ]
+      ],
+      "ico": "🌑"
     },
     {
       "c": "display",
@@ -295,7 +311,8 @@
           "en": "The lamp needs to be replaced.",
           "zh": "灯泡需要更换了。"
         }
-      ]
+      ],
+      "ico": "🪔"
     },
     {
       "c": "display",
@@ -308,7 +325,8 @@
           "en": "I'll fix the keystone so it's not slanted.",
           "zh": "我调一下梯形校正，画面就不歪了。"
         }
-      ]
+      ],
+      "ico": "🔺"
     },
     {
       "c": "audio",
@@ -326,7 +344,8 @@
           "en": "Let me check if it's muted.",
           "zh": "我看看是不是静音了。"
         }
-      ]
+      ],
+      "ico": "🎙️"
     },
     {
       "c": "audio",
@@ -339,7 +358,8 @@
           "en": "Please keep the wireless mic with you.",
           "zh": "请把无线麦带在身上。"
         }
-      ]
+      ],
+      "ico": "📡"
     },
     {
       "c": "audio",
@@ -352,7 +372,8 @@
           "en": "Clip the lapel mic to your collar.",
           "zh": "把领夹麦别在衣领上。"
         }
-      ]
+      ],
+      "ico": "👔"
     },
     {
       "c": "audio",
@@ -365,7 +386,8 @@
           "en": "Can I have a handheld mic?",
           "zh": "能给我一个手持麦吗？"
         }
-      ]
+      ],
+      "ico": "🎤"
     },
     {
       "c": "audio",
@@ -378,7 +400,8 @@
           "en": "There's no sound from the speakers.",
           "zh": "音箱没有声音。"
         }
-      ]
+      ],
+      "ico": "🔊"
     },
     {
       "c": "audio",
@@ -391,7 +414,8 @@
           "en": "The amplifier is in the cabinet.",
           "zh": "功放在柜子里。"
         }
-      ]
+      ],
+      "ico": "📻"
     },
     {
       "c": "audio",
@@ -404,7 +428,8 @@
           "en": "Turn the volume up a little.",
           "zh": "把音量调大一点。"
         }
-      ]
+      ],
+      "ico": "🎚️"
     },
     {
       "c": "audio",
@@ -417,7 +442,8 @@
           "en": "Please mute the mic during the break.",
           "zh": "课间请把麦克风静音。"
         }
-      ]
+      ],
+      "ico": "🔇"
     },
     {
       "c": "audio",
@@ -435,7 +461,8 @@
           "en": "Move away from the speakers to avoid feedback.",
           "zh": "离音箱远一点可以避免啸叫。"
         }
-      ]
+      ],
+      "ico": "📢"
     },
     {
       "c": "audio",
@@ -448,7 +475,8 @@
           "en": "I'll change the batteries.",
           "zh": "我来换电池。"
         }
-      ]
+      ],
+      "ico": "🔋"
     },
     {
       "c": "audio",
@@ -461,7 +489,8 @@
           "en": "The whole sound system was upgraded.",
           "zh": "整套音响系统升级过了。"
         }
-      ]
+      ],
+      "ico": "🎵"
     },
     {
       "c": "audio",
@@ -474,7 +503,8 @@
           "en": "I hear a buzzing sound.",
           "zh": "我听到嗡嗡的杂音。"
         }
-      ]
+      ],
+      "ico": "💥"
     },
     {
       "c": "audio",
@@ -487,7 +517,8 @@
           "en": "Plug it into the audio jack here.",
           "zh": "插到这里的音频接口。"
         }
-      ]
+      ],
+      "ico": "🎧"
     },
     {
       "c": "podium",
@@ -500,7 +531,8 @@
           "en": "Press the power button on the control panel.",
           "zh": "按中控面板上的电源键。"
         }
-      ]
+      ],
+      "ico": "🎛️"
     },
     {
       "c": "podium",
@@ -513,7 +545,8 @@
           "en": "The Wi-Fi password is on the podium.",
           "zh": "无线密码贴在讲台上。"
         }
-      ]
+      ],
+      "ico": "🧑‍🏫"
     },
     {
       "c": "podium",
@@ -526,7 +559,8 @@
           "en": "Is there a lectern?",
           "zh": "有演讲台吗？"
         }
-      ]
+      ],
+      "ico": "📖"
     },
     {
       "c": "podium",
@@ -539,7 +573,8 @@
           "en": "You can use the classroom computer.",
           "zh": "您可以用教室这台电脑。"
         }
-      ]
+      ],
+      "ico": "🖥️"
     },
     {
       "c": "podium",
@@ -552,7 +587,8 @@
           "en": "My laptop can't detect the HDMI.",
           "zh": "我的笔记本检测不到 HDMI。"
         }
-      ]
+      ],
+      "ico": "💻"
     },
     {
       "c": "podium",
@@ -565,7 +601,8 @@
           "en": "Copy your slides to the USB drive.",
           "zh": "把课件拷到 U 盘里。"
         }
-      ]
+      ],
+      "ico": "💾"
     },
     {
       "c": "podium",
@@ -578,7 +615,8 @@
           "en": "Is there an outlet near my seat?",
           "zh": "我座位附近有插座吗？"
         }
-      ]
+      ],
+      "ico": "🔌"
     },
     {
       "c": "podium",
@@ -591,7 +629,8 @@
           "en": "I'll get an extension cord for you.",
           "zh": "我去给您拿个插线板。"
         }
-      ]
+      ],
+      "ico": "🔗"
     },
     {
       "c": "podium",
@@ -604,7 +643,8 @@
           "en": "The main power switch is by the door.",
           "zh": "总电源开关在门边。"
         }
-      ]
+      ],
+      "ico": "🔘"
     },
     {
       "c": "podium",
@@ -617,7 +657,8 @@
           "en": "Do you have a Type-C adapter?",
           "zh": "有 Type-C 转接头吗？"
         }
-      ]
+      ],
+      "ico": "⚙️"
     },
     {
       "c": "podium",
@@ -630,7 +671,8 @@
           "en": "All equipment uses a surge protector.",
           "zh": "所有设备都接了防雷插座。"
         }
-      ]
+      ],
+      "ico": "🛡️"
     },
     {
       "c": "podium",
@@ -643,7 +685,8 @@
           "en": "The main unit is locked in the cabinet.",
           "zh": "主机锁在机柜里。"
         }
-      ]
+      ],
+      "ico": "🗄️"
     },
     {
       "c": "network",
@@ -656,7 +699,8 @@
           "en": "I can't connect to the Wi-Fi.",
           "zh": "我连不上无线网。"
         }
-      ]
+      ],
+      "ico": "📶"
     },
     {
       "c": "network",
@@ -669,7 +713,8 @@
           "en": "The password is on the card on the wall.",
           "zh": "密码在墙上的卡片上。"
         }
-      ]
+      ],
+      "ico": "🔑"
     },
     {
       "c": "network",
@@ -682,7 +727,8 @@
           "en": "A wired connection is more stable.",
           "zh": "插网线更稳定。"
         }
-      ]
+      ],
+      "ico": "🪢"
     },
     {
       "c": "network",
@@ -695,7 +741,8 @@
           "en": "The LAN port is under the desk.",
           "zh": "网线接口在桌子下面。"
         }
-      ]
+      ],
+      "ico": "🕳️"
     },
     {
       "c": "network",
@@ -708,7 +755,8 @@
           "en": "I can't log in to the computer.",
           "zh": "我登录不了这台电脑。"
         }
-      ]
+      ],
+      "ico": "🔓"
     },
     {
       "c": "network",
@@ -721,7 +769,8 @@
           "en": "Your username is your staff number.",
           "zh": "用户名是您的工号。"
         }
-      ]
+      ],
+      "ico": "👤"
     },
     {
       "c": "network",
@@ -734,7 +783,8 @@
           "en": "The internet is very slow today.",
           "zh": "今天网速很慢。"
         }
-      ]
+      ],
+      "ico": "📊"
     },
     {
       "c": "network",
@@ -747,7 +797,8 @@
           "en": "Do I need the VPN to open this site?",
           "zh": "打开这个网站需要 VPN 吗？"
         }
-      ]
+      ],
+      "ico": "🕶️"
     },
     {
       "c": "network",
@@ -760,7 +811,8 @@
           "en": "Scan the QR code to sign in.",
           "zh": "扫码签到。"
         }
-      ]
+      ],
+      "ico": "🔳"
     },
     {
       "c": "network",
@@ -773,7 +825,8 @@
           "en": "Let me restart the connection.",
           "zh": "我重新连一下。"
         }
-      ]
+      ],
+      "ico": "📡"
     },
     {
       "c": "room",
@@ -791,7 +844,8 @@
           "en": "I'll turn the air conditioner down.",
           "zh": "我把空调调小一点。"
         }
-      ]
+      ],
+      "ico": "❄️"
     },
     {
       "c": "room",
@@ -804,7 +858,8 @@
           "en": "The thermostat is set to 24 degrees.",
           "zh": "温控设在 24 度。"
         }
-      ]
+      ],
+      "ico": "🌡️"
     },
     {
       "c": "room",
@@ -817,7 +872,8 @@
           "en": "Could you dim the lights?",
           "zh": "能把灯调暗吗？"
         }
-      ]
+      ],
+      "ico": "💡"
     },
     {
       "c": "room",
@@ -830,7 +886,8 @@
           "en": "The light switch is next to the door.",
           "zh": "灯开关在门旁边。"
         }
-      ]
+      ],
+      "ico": "🔆"
     },
     {
       "c": "room",
@@ -848,7 +905,8 @@
           "en": "Sure, the room will be darker.",
           "zh": "可以，这样教室会更暗。"
         }
-      ]
+      ],
+      "ico": "🎭"
     },
     {
       "c": "room",
@@ -861,7 +919,8 @@
           "en": "Pull the blinds down please.",
           "zh": "请把百叶窗拉下来。"
         }
-      ]
+      ],
+      "ico": "🪜"
     },
     {
       "c": "room",
@@ -874,7 +933,8 @@
           "en": "It's stuffy in here.",
           "zh": "这里有点闷。"
         }
-      ]
+      ],
+      "ico": "💨"
     },
     {
       "c": "room",
@@ -887,7 +947,8 @@
           "en": "Is the temperature OK for you?",
           "zh": "温度对您合适吗？"
         }
-      ]
+      ],
+      "ico": "♨️"
     },
     {
       "c": "room",
@@ -900,7 +961,8 @@
           "en": "Please keep the back door closed.",
           "zh": "请把后门关上。"
         }
-      ]
+      ],
+      "ico": "🚪"
     },
     {
       "c": "room",
@@ -913,7 +975,8 @@
           "en": "Can we open a window?",
           "zh": "能开一下窗吗？"
         }
-      ]
+      ],
+      "ico": "🪟"
     },
     {
       "c": "room",
@@ -926,7 +989,8 @@
           "en": "The fire extinguisher is by the exit.",
           "zh": "灭火器在出口旁。"
         }
-      ]
+      ],
+      "ico": "🧯"
     },
     {
       "c": "supply",
@@ -939,7 +1003,8 @@
           "en": "The desks can be rearranged.",
           "zh": "课桌可以重新摆放。"
         }
-      ]
+      ],
+      "ico": "🗒️"
     },
     {
       "c": "supply",
@@ -952,7 +1017,8 @@
           "en": "There are spare chairs at the back.",
           "zh": "后面有多余的椅子。"
         }
-      ]
+      ],
+      "ico": "🪑"
     },
     {
       "c": "supply",
@@ -965,7 +1031,8 @@
           "en": "Please sign the attendance sheet.",
           "zh": "请在考勤表上签字。"
         }
-      ]
+      ],
+      "ico": "📝"
     },
     {
       "c": "supply",
@@ -978,7 +1045,8 @@
           "en": "Where can I print my handouts?",
           "zh": "我在哪里打印讲义？"
         }
-      ]
+      ],
+      "ico": "🖨️"
     },
     {
       "c": "supply",
@@ -991,7 +1059,8 @@
           "en": "The photocopier is in the office.",
           "zh": "复印机在办公室。"
         }
-      ]
+      ],
+      "ico": "📠"
     },
     {
       "c": "supply",
@@ -1004,7 +1073,8 @@
           "en": "The water dispenser is in the hallway.",
           "zh": "饮水机在走廊。"
         }
-      ]
+      ],
+      "ico": "🚰"
     },
     {
       "c": "supply",
@@ -1017,7 +1087,8 @@
           "en": "The clock is five minutes fast.",
           "zh": "这个钟快了五分钟。"
         }
-      ]
+      ],
+      "ico": "🕐"
     },
     {
       "c": "supply",
@@ -1030,7 +1101,8 @@
           "en": "Do you have a stapler?",
           "zh": "有订书机吗？"
         }
-      ]
+      ],
+      "ico": "📎"
     },
     {
       "c": "supply",
@@ -1043,7 +1115,8 @@
           "en": "I'll tape the cable to the floor.",
           "zh": "我把线缆用胶带固定在地上。"
         }
-      ]
+      ],
+      "ico": "➰"
     },
     {
       "c": "supply",
@@ -1056,7 +1129,8 @@
           "en": "We keep spare bulbs in the drawer.",
           "zh": "抽屉里有备用灯泡。"
         }
-      ]
+      ],
+      "ico": "✨"
     },
     {
       "c": "record",
@@ -1069,7 +1143,8 @@
           "en": "Can you record my class?",
           "zh": "能帮我录课吗？"
         }
-      ]
+      ],
+      "ico": "📷"
     },
     {
       "c": "record",
@@ -1082,7 +1157,8 @@
           "en": "The PTZ camera follows the teacher.",
           "zh": "云台摄像机会自动跟踪老师。"
         }
-      ]
+      ],
+      "ico": "🎥"
     },
     {
       "c": "record",
@@ -1095,7 +1171,8 @@
           "en": "Press record five minutes before class.",
           "zh": "课前五分钟按录制。"
         }
-      ]
+      ],
+      "ico": "⏺️"
     },
     {
       "c": "record",
@@ -1108,7 +1185,8 @@
           "en": "Will the class be streamed online?",
           "zh": "这节课会线上直播吗？"
         }
-      ]
+      ],
+      "ico": "🔴"
     },
     {
       "c": "record",
@@ -1121,7 +1199,8 @@
           "en": "It's a hybrid class, half online.",
           "zh": "这是混合课，一半学生在线上。"
         }
-      ]
+      ],
+      "ico": "🧑‍🤝‍🧑"
     },
     {
       "c": "record",
@@ -1139,7 +1218,8 @@
           "en": "Click \"share screen\" again.",
           "zh": "再点一次“共享屏幕”。"
         }
-      ]
+      ],
+      "ico": "📤"
     },
     {
       "c": "record",
@@ -1152,7 +1232,8 @@
           "en": "We use Tencent Meeting for online students.",
           "zh": "线上学生用腾讯会议接入。"
         }
-      ]
+      ],
+      "ico": "📞"
     },
     {
       "c": "record",
@@ -1165,7 +1246,8 @@
           "en": "I'll set up the tripod at the back.",
           "zh": "我在后面架三脚架。"
         }
-      ]
+      ],
+      "ico": "🗼"
     },
     {
       "c": "record",
@@ -1178,7 +1260,8 @@
           "en": "The memory card is full.",
           "zh": "存储卡满了。"
         }
-      ]
+      ],
+      "ico": "💽"
     },
     {
       "c": "record",
@@ -1191,7 +1274,8 @@
           "en": "Adjust the height here.",
           "zh": "可以在这里调高度。"
         }
-      ]
+      ],
+      "ico": "🪝"
     },
     {
       "c": "problem",
@@ -1204,7 +1288,8 @@
           "en": "This room is out of order today.",
           "zh": "这间教室今天停用。"
         }
-      ]
+      ],
+      "ico": "🚫"
     },
     {
       "c": "problem",
@@ -1217,7 +1302,8 @@
           "en": "Something is broken.",
           "zh": "有东西坏了。"
         }
-      ]
+      ],
+      "ico": "💔"
     },
     {
       "c": "problem",
@@ -1230,7 +1316,8 @@
           "en": "It's not working.",
           "zh": "它不工作了。"
         }
-      ]
+      ],
+      "ico": "💤"
     },
     {
       "c": "problem",
@@ -1248,7 +1335,8 @@
           "en": "I'll restart it, wait a moment.",
           "zh": "我重启一下，稍等。"
         }
-      ]
+      ],
+      "ico": "🧊"
     },
     {
       "c": "problem",
@@ -1261,7 +1349,8 @@
           "en": "It will be repaired tomorrow.",
           "zh": "明天会修好。"
         }
-      ]
+      ],
+      "ico": "🔧"
     },
     {
       "c": "problem",
@@ -1274,7 +1363,8 @@
           "en": "I'll call the technician right away.",
           "zh": "我马上叫技术人员来。"
         }
-      ]
+      ],
+      "ico": "👷"
     },
     {
       "c": "problem",
@@ -1287,7 +1377,8 @@
           "en": "The equipment is under maintenance.",
           "zh": "设备正在维护中。"
         }
-      ]
+      ],
+      "ico": "🛠️"
     },
     {
       "c": "problem",
@@ -1300,7 +1391,8 @@
           "en": "I'll bring a replacement right away.",
           "zh": "我马上拿备用的来。"
         }
-      ]
+      ],
+      "ico": "🔁"
     },
     {
       "c": "problem",
@@ -1313,7 +1405,8 @@
           "en": "There's a power outage in this building.",
           "zh": "这栋楼停电了。"
         }
-      ]
+      ],
+      "ico": "🕯️"
     },
     {
       "c": "problem",
@@ -1326,7 +1419,8 @@
           "en": "It's a loose connection, I'll re-plug it.",
           "zh": "是接触不良，我重新插一下。"
         }
-      ]
+      ],
+      "ico": "🧷"
     },
     {
       "c": "problem",
@@ -1339,7 +1433,8 @@
           "en": "The projector overheated, let it cool down.",
           "zh": "投影仪过热了，让它冷却一下。"
         }
-      ]
+      ],
+      "ico": "🔥"
     },
     {
       "c": "problem",
@@ -1352,7 +1447,8 @@
           "en": "We can move you to a spare classroom.",
           "zh": "可以给您换到备用教室。"
         }
-      ]
+      ],
+      "ico": "🏫"
     }
   ],
   "groups": [
