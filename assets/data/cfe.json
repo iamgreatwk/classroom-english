@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "cats": [
     {
       "id": "display",
@@ -2775,6 +2775,109 @@
         {
           "en": "Is there anything I can do?",
           "zh": "有什么我能做的吗？【Is there anything...? = 有什么……吗】"
+        }
+      ]
+    },
+    {
+      "id": "linking",
+      "zh": "连读与弱读（听懂老外的关键）",
+      "ico": "🌊",
+      "s": [
+        {
+          "en": "Not at all.",
+          "zh": "没关系 · 连读成 no-ta-tall，三个词连成一个"
+        },
+        {
+          "en": "Check it out.",
+          "zh": "检查一下 · 连读 che-ki-kaut"
+        },
+        {
+          "en": "Turn it on.",
+          "zh": "打开它 · 连读 tur-ni-non"
+        },
+        {
+          "en": "Turn it off.",
+          "zh": "关掉它 · 连读 tur-ni-toff"
+        },
+        {
+          "en": "Pick it up.",
+          "zh": "捡起来 · 连读 pi-ki-kup"
+        },
+        {
+          "en": "Put it on.",
+          "zh": "打开/穿上 · 连读 pu-ti-ton"
+        },
+        {
+          "en": "Plug it in.",
+          "zh": "插上电 · 连读 plu-gi-din"
+        },
+        {
+          "en": "A lot of people.",
+          "zh": "很多人 · 连读 a-lo-dof"
+        },
+        {
+          "en": "One of the speakers.",
+          "zh": "其中一个音箱 · 连读 one-ə-və"
+        },
+        {
+          "en": "Take a look at it.",
+          "zh": "看一看 · look at 连读 loo-kat"
+        },
+        {
+          "en": "Nice to meet you.",
+          "zh": "很高兴认识你 · meet you 读 mee-chu"
+        },
+        {
+          "en": "Did you check it?",
+          "zh": "你检查了吗？ · did you 读 di-joo"
+        },
+        {
+          "en": "Would you mind?",
+          "zh": "您介意吗？ · would you 读 would-joo"
+        },
+        {
+          "en": "Don't you worry.",
+          "zh": "你不用担心 · don't you 读 don-chu"
+        },
+        {
+          "en": "Tell him the room is ready.",
+          "zh": "告诉他教室好了 · tell him 读 te-lim"
+        },
+        {
+          "en": "Give her the key.",
+          "zh": "把钥匙给她 · give her 读 gi-ver"
+        },
+        {
+          "en": "I want to check the projector.",
+          "zh": "我想检查投影仪 · want to 口语读 wanna"
+        },
+        {
+          "en": "I'm going to restart it.",
+          "zh": "我要重启它 · going to 口语读 gonna"
+        },
+        {
+          "en": "You have to sign in first.",
+          "zh": "你得先签到 · have to 读 hafta"
+        },
+        {
+          "en": "It's kind of far.",
+          "zh": "有点远 · kind of 读 kinda"
+        },
+        {
+          "en": "We got to go now.",
+          "zh": "我们得走了 · got to 读 gotta"
+        },
+        {
+          "en": "Come in and sit down.",
+          "zh": "进来坐 · and 弱读成 ən"
+        },
+        {
+          "en": "What do you think?",
+          "zh": "你觉得呢 · What do you 连读 wha-du-ya"
+        },
+        {
+          "en": "How do I open it?",
+          "zh": "怎么打开 · How do I 读 how-da-I"
         }
       ]
     }
