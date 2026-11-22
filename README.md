@@ -49,13 +49,15 @@ flutter build web --release --web-renderer html   # 便于自动化测试定位�
 ### 重新生成 / 更换音色
 
 ```bash
-python3 -m pip install --target /tmp/ttslib edge-tts
+python3 -m pip install --target tools/.ttslib edge-tts   # 装到项目内，持久保存
 
-PYTHONPATH=/tmp/ttslib python3 tools/gen_audio.py --list          # 看会生成哪些
-PYTHONPATH=/tmp/ttslib python3 tools/gen_audio.py --limit 5       # 试 5 条
-PYTHONPATH=/tmp/ttslib python3 tools/gen_audio.py                 # 全部（美音+英音，7MB）
-PYTHONPATH=/tmp/ttslib python3 tools/gen_audio.py --accent en-US  # 只要美音
-PYTHONPATH=/tmp/ttslib python3 tools/gen_audio.py --voice en-US-GuyNeural --accent en-US  # 换男声
+python3 tools/gen_audio.py --list          # 看会生成哪些
+python3 tools/gen_audio.py --limit 5       # 试 5 条
+python3 tools/gen_audio.py                 # 全部（美音+英音）
+python3 tools/gen_audio.py --accent en-US  # 只要美音
+python3 tools/gen_audio.py --voice en-US-GuyNeural --accent en-US  # 换男声
+
+> 依赖装在项目内 `tools/.ttslib/`（已被 .gitignore 排除），重装系统或清理 /tmp 后无需重建环境。
 ```
 
 音色在 `tools/gen_audio.py` 顶部的 `VOICES` 里改（微软神经语音名，与
