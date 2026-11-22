@@ -2156,6 +2156,191 @@
           "zh": "抱歉，空调遥控器找不到了。"
         }
       ]
+    },
+    {
+      "id": "basics",
+      "zh": "救命句（英语不好时先说这些）",
+      "ico": "🆘",
+      "s": [
+        {
+          "en": "Sorry, my English is not very good.",
+          "zh": "抱歉，我英语不太好。"
+        },
+        {
+          "en": "I know a little English.",
+          "zh": "我只会一点英语。"
+        },
+        {
+          "en": "Do you speak Chinese?",
+          "zh": "您会说中文吗？"
+        },
+        {
+          "en": "Can anyone speak Chinese?",
+          "zh": "有谁会说中文吗？"
+        },
+        {
+          "en": "Pardon?",
+          "zh": "您说什么？（没听清）"
+        },
+        {
+          "en": "Please say that again.",
+          "zh": "请再说一遍。"
+        },
+        {
+          "en": "Please speak slowly.",
+          "zh": "请说慢一点。"
+        },
+        {
+          "en": "I don't understand.",
+          "zh": "我不明白。"
+        },
+        {
+          "en": "Could you write it down, please?",
+          "zh": "您能写下来吗？"
+        },
+        {
+          "en": "Can you show me, please?",
+          "zh": "您能演示给我看吗？"
+        },
+        {
+          "en": "How do you say this in English?",
+          "zh": "这个用英语怎么说？"
+        },
+        {
+          "en": "What does this word mean?",
+          "zh": "这个词是什么意思？"
+        },
+        {
+          "en": "One moment, I'll check.",
+          "zh": "稍等，我查一下。"
+        },
+        {
+          "en": "I'll ask my colleague.",
+          "zh": "我问问同事。"
+        },
+        {
+          "en": "Let me find someone to help.",
+          "zh": "我找个人来帮您。"
+        }
+      ]
+    },
+    {
+      "id": "intro",
+      "zh": "自我介绍（让外教认识你）",
+      "ico": "📋",
+      "s": [
+        {
+          "en": "Hello, I'm the classroom manager.",
+          "zh": "您好，我是教室管理员。"
+        },
+        {
+          "en": "I take care of the classrooms here.",
+          "zh": "这里的教室由我负责。"
+        },
+        {
+          "en": "My name is Wang.",
+          "zh": "我姓王。"
+        },
+        {
+          "en": "Nice to meet you.",
+          "zh": "很高兴认识您。"
+        },
+        {
+          "en": "Nice to meet you, too.",
+          "zh": "我也很高兴认识您。"
+        },
+        {
+          "en": "Where are you from?",
+          "zh": "您来自哪里？"
+        },
+        {
+          "en": "I'm from China.",
+          "zh": "我来自中国。"
+        },
+        {
+          "en": "I'm here every morning.",
+          "zh": "我每天早上都在。"
+        },
+        {
+          "en": "If there's any problem, come to me.",
+          "zh": "有问题来找我就行。"
+        },
+        {
+          "en": "Call me if you need anything.",
+          "zh": "有事随时打我电话。"
+        },
+        {
+          "en": "This is my phone number.",
+          "zh": "这是我的电话号码。"
+        },
+        {
+          "en": "I've worked here for five years.",
+          "zh": "我在这里工作五年了。"
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "zh": "数字 / 时间 / 房间号读法",
+      "ico": "⏰",
+      "s": [
+        {
+          "en": "What time is it?",
+          "zh": "现在几点？"
+        },
+        {
+          "en": "It's eight o'clock.",
+          "zh": "八点整。"
+        },
+        {
+          "en": "It's half past eight.",
+          "zh": "八点半。"
+        },
+        {
+          "en": "It's a quarter to nine.",
+          "zh": "八点四十五。"
+        },
+        {
+          "en": "The class starts at nine.",
+          "zh": "九点开始上课。"
+        },
+        {
+          "en": "You have twenty minutes left.",
+          "zh": "您还有二十分钟。"
+        },
+        {
+          "en": "In about ten minutes.",
+          "zh": "大约十分钟后。"
+        },
+        {
+          "en": "Read 305 as three oh five.",
+          "zh": "305 读作 three oh five。"
+        },
+        {
+          "en": "Room 402, four oh two.",
+          "zh": "402 教室，读 four oh two。"
+        },
+        {
+          "en": "It's on the third floor.",
+          "zh": "在三楼。"
+        },
+        {
+          "en": "One more floor up.",
+          "zh": "再上一层。"
+        },
+        {
+          "en": "Monday to Friday, eight to five.",
+          "zh": "周一到周五，早八晚五。"
+        },
+        {
+          "en": "The building opens at seven thirty.",
+          "zh": "楼里七点半开门。"
+        },
+        {
+          "en": "The class is over at four forty.",
+          "zh": "四点四十下课。"
+        }
+      ]
     }
   ]
 }
