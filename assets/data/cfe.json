@@ -1806,6 +1806,54 @@
         {
           "en": "Can I have your phone number?",
           "zh": "能留个电话号码吗？"
+        },
+        {
+          "en": "What did you lose?",
+          "zh": "您丢了什么？"
+        },
+        {
+          "en": "Where did you leave it?",
+          "zh": "您落在哪里了？"
+        },
+        {
+          "en": "Was there anything important in it?",
+          "zh": "里面有重要的东西吗？"
+        },
+        {
+          "en": "Is there a name on it?",
+          "zh": "上面有名字吗？"
+        },
+        {
+          "en": "A student found it and gave it to me.",
+          "zh": "一个学生捡到交给我的。"
+        },
+        {
+          "en": "We found a phone in Room 302.",
+          "zh": "我们在 302 教室捡到一部手机。"
+        },
+        {
+          "en": "Is it a black umbrella, right?",
+          "zh": "是一把黑色的伞，对吗？"
+        },
+        {
+          "en": "The lost and found is at the main office.",
+          "zh": "失物招领处在主楼办公室。"
+        },
+        {
+          "en": "Please come to the office to get it.",
+          "zh": "请到办公室来领取。"
+        },
+        {
+          "en": "Please keep your belongings with you.",
+          "zh": "请保管好您的随身物品。"
+        },
+        {
+          "en": "You can check again tomorrow.",
+          "zh": "您可以明天再来看看。"
+        },
+        {
+          "en": "I'll keep an eye out for it.",
+          "zh": "我会帮您留意的。"
         }
       ]
     },
@@ -1861,6 +1909,58 @@
         {
           "en": "This classroom is booked now.",
           "zh": "这间教室现在有人用了。"
+        },
+        {
+          "en": "Which classroom are you looking for?",
+          "zh": "您在找哪间教室？"
+        },
+        {
+          "en": "Room numbers are on each door.",
+          "zh": "每个门上都有教室号。"
+        },
+        {
+          "en": "Even-numbered rooms are on this side.",
+          "zh": "双数教室在这一边。"
+        },
+        {
+          "en": "It's one floor up.",
+          "zh": "在上一层。"
+        },
+        {
+          "en": "Go downstairs and turn right.",
+          "zh": "下楼后右转。"
+        },
+        {
+          "en": "Take the stairs on the left.",
+          "zh": "走左边的楼梯。"
+        },
+        {
+          "en": "The elevator is around the corner.",
+          "zh": "电梯在拐角处。"
+        },
+        {
+          "en": "This building has no elevator.",
+          "zh": "这栋楼没有电梯。"
+        },
+        {
+          "en": "Follow me, please.",
+          "zh": "请跟我来。"
+        },
+        {
+          "en": "It's opposite the library.",
+          "zh": "在图书馆对面。"
+        },
+        {
+          "en": "Are you looking for the multimedia rooms?",
+          "zh": "您找的是多媒体教室吗？"
+        },
+        {
+          "en": "Let me take you there.",
+          "zh": "我带您过去。"
+        },
+        {
+          "en": "The signs on the wall will help.",
+          "zh": "墙上的指示牌能帮到您。"
         }
       ]
     },
@@ -1928,6 +2028,132 @@
         {
           "en": "It was the least I could do.",
           "zh": "这是我起码能做的。"
+        }
+      ]
+    },
+    {
+      "id": "supplies",
+      "zh": "教具领用（粉笔 / 白板笔 / 板擦）",
+      "ico": "🧭",
+      "s": [
+        {
+          "en": "Do you need any chalk?",
+          "zh": "您需要粉笔吗？"
+        },
+        {
+          "en": "I'll bring you some whiteboard markers.",
+          "zh": "我给您拿几支白板笔。"
+        },
+        {
+          "en": "Here are two new markers.",
+          "zh": "这是两支新的笔。"
+        },
+        {
+          "en": "The eraser is in the drawer.",
+          "zh": "板擦在抽屉里。"
+        },
+        {
+          "en": "How many markers do you need?",
+          "zh": "您需要几支笔？"
+        },
+        {
+          "en": "This marker is running out of ink.",
+          "zh": "这支笔没墨了。"
+        },
+        {
+          "en": "I'll get you a new one right away.",
+          "zh": "我马上给您换新的。"
+        },
+        {
+          "en": "Do you need an extension cord?",
+          "zh": "需要插线板吗？"
+        },
+        {
+          "en": "Do you need batteries for the microphone?",
+          "zh": "麦克风需要电池吗？"
+        },
+        {
+          "en": "Here's the laser pointer.",
+          "zh": "这是激光笔。"
+        },
+        {
+          "en": "Please return them after class.",
+          "zh": "下课后请归还。"
+        },
+        {
+          "en": "Sign here to borrow them.",
+          "zh": "借用请在这里登记。"
+        },
+        {
+          "en": "We're out of chalk today.",
+          "zh": "今天粉笔用完了。"
+        },
+        {
+          "en": "Put them back on the podium when you leave.",
+          "zh": "离开时放回讲台。"
+        }
+      ]
+    },
+    {
+      "id": "temp",
+      "zh": "教室冷热（空调 / 开窗）",
+      "ico": "❄️",
+      "s": [
+        {
+          "en": "It's too hot in here.",
+          "zh": "这里太热了。"
+        },
+        {
+          "en": "It's too cold in here.",
+          "zh": "这里太冷了。"
+        },
+        {
+          "en": "Can you turn up the air conditioner?",
+          "zh": "能把空调开大一点吗？"
+        },
+        {
+          "en": "Can you turn down the air conditioner?",
+          "zh": "能把空调关小一点吗？"
+        },
+        {
+          "en": "The air conditioner isn't cooling.",
+          "zh": "空调不制冷了。"
+        },
+        {
+          "en": "Shall I open the windows?",
+          "zh": "要开窗吗？"
+        },
+        {
+          "en": "Let me adjust the temperature.",
+          "zh": "我调一下温度。"
+        },
+        {
+          "en": "What temperature do you prefer?",
+          "zh": "您觉得多少度合适？"
+        },
+        {
+          "en": "I'll set it to 24 degrees.",
+          "zh": "我把它设到 24 度。"
+        },
+        {
+          "en": "The fan is on the wall.",
+          "zh": "风扇在墙上。"
+        },
+        {
+          "en": "It will cool down in a few minutes.",
+          "zh": "几分钟后就会凉快下来。"
+        },
+        {
+          "en": "The heating is on now.",
+          "zh": "现在供暖了。"
+        },
+        {
+          "en": "Is the temperature OK now?",
+          "zh": "现在温度可以吗？"
+        },
+        {
+          "en": "Sorry, the air conditioner remote is missing.",
+          "zh": "抱歉，空调遥控器找不到了。"
         }
       ]
     }
