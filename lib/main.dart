@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/semantics.dart';
 
 import 'models.dart';
 import 'pages/favorites_page.dart';
+import 'pages/quiz_page.dart';
 import 'pages/sentences_page.dart';
 import 'pages/settings_page.dart';
 import 'pages/words_page.dart';
@@ -10,6 +12,10 @@ import 'tts_service.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  // ?a11y=1 启用无障碍语义树（屏幕阅读器 / 自动化测试）
+  if (Uri.base.queryParameters['a11y'] == '1') {
+    SemanticsBinding.instance.ensureSemantics();
+  }
   await SettingsStore.instance.load();
   await TtsService.instance.init();
   runApp(const ClassroomEnglishApp());
@@ -87,6 +93,7 @@ class _HomePageState extends State<HomePage> {
             children: [
               WordsPage(data: data),
               SentencesPage(data: data),
+              QuizPage(data: data),
               FavoritesPage(data: data),
               SettingsPage(data: data),
             ],
@@ -104,6 +111,11 @@ class _HomePageState extends State<HomePage> {
                 icon: Icon(Icons.forum_outlined),
                 selectedIcon: Icon(Icons.forum_rounded),
                 label: '短句',
+              ),
+              NavigationDestination(
+                icon: Icon(Icons.quiz_outlined),
+                selectedIcon: Icon(Icons.quiz_rounded),
+                label: '练习',
               ),
               NavigationDestination(
                 icon: Icon(Icons.star_border_rounded),

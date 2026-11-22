@@ -47,6 +47,7 @@ class WordEntry {
   final String en;
   final String ipa;
   final String zh;
+  final String ico;
   final List<Phrase> phrases;
 
   const WordEntry({
@@ -54,6 +55,7 @@ class WordEntry {
     required this.en,
     required this.ipa,
     required this.zh,
+    required this.ico,
     required this.phrases,
   });
 
@@ -64,6 +66,7 @@ class WordEntry {
         en: j['en'] as String,
         ipa: (j['ipa'] as String?) ?? '',
         zh: j['zh'] as String,
+        ico: (j['ico'] as String?) ?? '📦',
         phrases: ((j['p'] as List?) ?? const [])
             .map((e) => Phrase.fromJson(e as Map<String, dynamic>))
             .toList(),
