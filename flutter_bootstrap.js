@@ -9,8 +9,6 @@ if (!window._flutter) {
 _flutter.buildConfig = {"engineRevision":"f6344b75dcf861d8bf1f1322780b8811f982e31a","builds":[{"compileTarget":"dart2js","renderer":"auto","mainJsPath":"main.dart.js"}]};
 
 
-_flutter.loader.load({
-  serviceWorkerSettings: {
-    serviceWorkerVersion: "145785124"
-  }
-});
+// 自定义 bootstrap：不注册 Service Worker，
+// 内容更新后刷新页面立即生效（避免“改了词表还是旧版”的缓存困扰）
+_flutter.loader.load({});

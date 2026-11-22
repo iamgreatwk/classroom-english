@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
   <base href="/classroom-english/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="教室设施英语助手：中英对照词条与短句，点一下就能发音">
+  <meta name="theme-color" content="#2b6cb0">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="classroom_english">
+  <meta name="apple-mobile-web-app-title" content="教室英语">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>classroom_english</title>
+  <title>教室设施英语助手</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <script>
+    // 移除旧版 Service Worker 及其缓存，避免“更新后仍显示旧内容”
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function (rs) {
+        rs.forEach(function (r) { r.unregister(); });
+      });
+    }
+    if ('caches' in window) {
+      caches.keys().then(function (ks) {
+        ks.forEach(function (k) { caches.delete(k); });
+      });
+    }
+  </script>
+  <!-- flutter_bootstrap.js 由 web/flutter_bootstrap.js 模板生成（已禁用 Service Worker） -->
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
