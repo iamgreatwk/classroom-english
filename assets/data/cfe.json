@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "cats": [
     {
       "id": "display",
@@ -2609,6 +2609,172 @@
         {
           "en": "The class is over at four forty.",
           "zh": "四点四十下课。"
+        }
+      ]
+    },
+    {
+      "id": "contract",
+      "zh": "缩写对照（we're / that's 这些）",
+      "ico": "🔤",
+      "s": [
+        {
+          "en": "I'm",
+          "zh": "I am · 我是"
+        },
+        {
+          "en": "You're",
+          "zh": "You are · 你是 / 你们是"
+        },
+        {
+          "en": "We're",
+          "zh": "We are · 我们是"
+        },
+        {
+          "en": "They're",
+          "zh": "They are · 他们是"
+        },
+        {
+          "en": "That's",
+          "zh": "That is · 那是"
+        },
+        {
+          "en": "What's",
+          "zh": "What is · 什么是"
+        },
+        {
+          "en": "It's",
+          "zh": "It is · 它是"
+        },
+        {
+          "en": "There's",
+          "zh": "There is · 有（单数）"
+        },
+        {
+          "en": "Don't",
+          "zh": "Do not · 不要"
+        },
+        {
+          "en": "Doesn't",
+          "zh": "Does not · 不"
+        },
+        {
+          "en": "Didn't",
+          "zh": "Did not · 没有"
+        },
+        {
+          "en": "Won't",
+          "zh": "Will not · 不会"
+        },
+        {
+          "en": "Can't",
+          "zh": "Cannot · 不能"
+        },
+        {
+          "en": "Isn't",
+          "zh": "Is not · 不是"
+        },
+        {
+          "en": "Aren't",
+          "zh": "Are not · 不是"
+        },
+        {
+          "en": "Didn't work",
+          "zh": "Did not work · 没起作用"
+        },
+        {
+          "en": "I'll",
+          "zh": "I will · 我会"
+        },
+        {
+          "en": "We'll",
+          "zh": "We will · 我们会"
+        },
+        {
+          "en": "I'd like to",
+          "zh": "I would like to · 我想"
+        },
+        {
+          "en": "You'd better",
+          "zh": "You had better · 你最好"
+        },
+        {
+          "en": "Let's",
+          "zh": "Let us · 让我们"
+        },
+        {
+          "en": "Haven't",
+          "zh": "Have not · 还没有"
+        }
+      ]
+    },
+    {
+      "id": "pattern",
+      "zh": "句型骨架（英语的固定格式）",
+      "ico": "🏗️",
+      "s": [
+        {
+          "en": "There's a problem with the projector.",
+          "zh": "投影仪有问题。【There's + 名词 = 有……】"
+        },
+        {
+          "en": "There are two markers on the desk.",
+          "zh": "桌上有两支笔。【There are + 复数 = 有……】"
+        },
+        {
+          "en": "I'd like to book a classroom.",
+          "zh": "我想订一间教室。【I'd like to = 我想】"
+        },
+        {
+          "en": "Could you please sign here?",
+          "zh": "您能在这里签字吗？【Could you please...? = 您能……吗】"
+        },
+        {
+          "en": "Let me check it for you.",
+          "zh": "我帮您查一下。【Let me = 让我】"
+        },
+        {
+          "en": "How about this one?",
+          "zh": "这个怎么样？【How about...? = ……怎么样】"
+        },
+        {
+          "en": "I'm going to call the technician.",
+          "zh": "我打算打电话给技术员。【I'm going to = 我打算】"
+        },
+        {
+          "en": "I need to restart the computer.",
+          "zh": "我需要重启电脑。【I need to = 我需要】"
+        },
+        {
+          "en": "You'd better use the HDMI cable.",
+          "zh": "你最好用 HDMI 线。【You'd better = 你最好】"
+        },
+        {
+          "en": "I'll fix it as soon as possible.",
+          "zh": "我会尽快修好。【as soon as possible = 尽快】"
+        },
+        {
+          "en": "Do you want me to bring a marker?",
+          "zh": "需要我拿支笔吗？【Do you want me to...? = 需要我……吗】"
+        },
+        {
+          "en": "Would you mind waiting a moment?",
+          "zh": "您介意稍等一下吗？【Would you mind...? = 您介意……吗】"
+        },
+        {
+          "en": "It's better to use the wired connection.",
+          "zh": "最好用有线连接。【It's better to = 最好】"
+        },
+        {
+          "en": "We're out of chalk.",
+          "zh": "我们粉笔用完了。【be out of = 用完了】"
+        },
+        {
+          "en": "The projector is out of order.",
+          "zh": "投影仪出故障了。【be out of order = 出故障】"
+        },
+        {
+          "en": "Is there anything I can do?",
+          "zh": "有什么我能做的吗？【Is there anything...? = 有什么……吗】"
         }
       ]
     }
