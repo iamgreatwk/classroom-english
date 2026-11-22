@@ -112,11 +112,13 @@ class SentenceGroup {
 
 /// 全部词表数据
 class CfeData {
+  final int version;
   final List<CfeCategory> cats;
   final List<WordEntry> words;
   final List<SentenceGroup> groups;
 
   const CfeData({
+    required this.version,
     required this.cats,
     required this.words,
     required this.groups,
@@ -130,6 +132,7 @@ class CfeData {
       );
 
   factory CfeData.fromJson(Map<String, dynamic> j) => CfeData(
+        version: (j['version'] as int?) ?? 1,
         cats: (j['cats'] as List)
             .map((e) => CfeCategory.fromJson(e as Map<String, dynamic>))
             .toList(),

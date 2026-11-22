@@ -91,7 +91,8 @@ class SettingsPage extends StatelessWidget {
                 leading: const Icon(Icons.info_outline_rounded),
                 title: const Text('词表规模'),
                 subtitle: Text(
-                  '${data.words.length} 个词条 · $phraseCount 条例句 · $sentCount 条短句',
+                  '数据 v${data.version} · ${data.words.length} 个词条 · '
+                  '$phraseCount 条例句 · $sentCount 条短句',
                 ),
               ),
               const ListTile(
