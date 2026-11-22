@@ -6,15 +6,15 @@
 服务与 agent-os/tts/edge_tts.mjs 相同（speech.platform.bing.com + Sec-MS-GEC），
 音色沿用 tts.sh 里验证过的清单，但直接输出 MP3（无需 webm/opus 解码转码）。
 
-准备：
-    python3 -m pip install --target /tmp/ttslib edge-tts
+准备（装到项目内，持久保存，不怕 /tmp 清理）：
+    python3 -m pip install --target tools/.ttslib edge-tts
 
 用法：
-    PYTHONPATH=/tmp/ttslib python3 tools/gen_audio.py --list          # 看会生成哪些
-    PYTHONPATH=/tmp/ttslib python3 tools/gen_audio.py --limit 5       # 先试 5 条
-    PYTHONPATH=/tmp/ttslib python3 tools/gen_audio.py                 # 全部（美音+英音）
-    PYTHONPATH=/tmp/ttslib python3 tools/gen_audio.py --accent en-US  # 只要美音
-    PYTHONPATH=/tmp/ttslib python3 tools/gen_audio.py --proxy http://127.0.0.1:7890
+    python3 tools/gen_audio.py --list          # 看会生成哪些
+    python3 tools/gen_audio.py --limit 5       # 先试 5 条
+    python3 tools/gen_audio.py                 # 全部（美音+英音）
+    python3 tools/gen_audio.py --accent en-US  # 只要美音
+    python3 tools/gen_audio.py --proxy http://127.0.0.1:7890
 
 产物：
     assets/audio/en-US/<slug>.mp3
@@ -31,6 +31,12 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, 'assets', 'data', 'cfe.json')
 OUT_DIR = os.path.join(ROOT, 'assets', 'audio')
+
+# edge-tts 安装位置：优先项目内 tools/.ttslib（持久），其次 /tmp/ttslib（兼容旧安装）
+for _cand in (os.path.join(ROOT, 'tools', '.ttslib'), '/tmp/ttslib'):
+    if os.path.isdir(_cand):
+        sys.path.insert(0, _cand)
+        break
 
 # 音色（与 tts.sh 中验证过的微软神经语音一致）
 VOICES = {
@@ -102,7 +108,6 @@ async def synth_one(sem, tts_mod, text, voice, path, proxy, force, rate):
 
 
 async def run(args, texts):
-    sys.path.insert(0, '/tmp/ttslib')
     import edge_tts
 
     manifest = {}
